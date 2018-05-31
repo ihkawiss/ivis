@@ -15,6 +15,7 @@ public class StationDto implements Comparable<StationDto> {
 	private int delayedTrains;
 	private int trainsOnTime;
 	private int delayRatio;
+	private int totalTrains;
 
 	private GeoLocationDto location;
 
@@ -25,7 +26,8 @@ public class StationDto implements Comparable<StationDto> {
 		this.location = new GeoLocationDto(station.getCoordinates());
 		this.delayedTrains = station.getTrainsDelayed();
 		this.trainsOnTime = station.getTrainsOnTime();
-		this.delayRatio = (int) (delayedTrains == 0 ? 0.0f : delayedTrains / (float)(delayedTrains + trainsOnTime) * 100);
+		this.totalTrains = trainsOnTime + delayedTrains;
+		this.delayRatio = (int) (delayedTrains == 0 ? 0.0f : delayedTrains / (float) (totalTrains) * 100);
 	}
 
 	public int getTrainsOnTime() {
@@ -98,6 +100,14 @@ public class StationDto implements Comparable<StationDto> {
 
 	public void setDelayedTrains(int delayedTrains) {
 		this.delayedTrains = delayedTrains;
+	}
+
+	public int getTotalTrains() {
+		return totalTrains;
+	}
+
+	public void setTotalTrains(int totalTrains) {
+		this.totalTrains = totalTrains;
 	}
 
 	public static List<StationDto> fromList(List<Station> list) {

@@ -36,6 +36,15 @@
     opacity: 0;
 }
 
+.statistics-paragraph{
+    color: white;
+    left: 50px;
+    position: absolute;
+    top: 100px;
+    opacity: 0.0;
+    font-size: 18px;
+}
+
 .close {
     position: absolute;
     right: 32px;

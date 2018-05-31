@@ -99,11 +99,32 @@ function showDetailView(event, element){
     title.text(element.name);
     container.append(title);
 
+    // add basic statistics
+    let statisticParagraphs = $("<div>", {class: 'statistics-paragraph'});
+    statisticParagraphs.append(p("Trains: " + element.totalTrains));
+    statisticParagraphs.append(p("On time: " + element.trainsOnTime));
+    statisticParagraphs.append(p("Delayed: " + element.delayedTrains));
+    container.append(statisticParagraphs);
+
+    // add donut chart for delay metric
+    let donutContainer = $("<div>", {class: 'donut'});
+    container.append(donutContainer);
+
     $("#map").append(container);
 
     // animation
     container.animate({width: '100%', opacity: 1}, 500, () => {
         title.animate({opacity: 1}, 500);
+        statisticParagraphs.animate({opacity: 1}, 500);
     });
     
+}
+
+/**
+ * Just wraps text into a <p> tag
+ * 
+ * @param {text} text 
+ */
+function p (text) {
+    return "<p>" + text + "<p>";
 }
