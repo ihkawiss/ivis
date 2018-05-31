@@ -12,6 +12,7 @@ public class StationDto implements Comparable<StationDto> {
 	private float dimension;
 	private float frequency;
 	private float workFrequency;
+	private int delayedTrains;
 
 	private GeoLocationDto location;
 
@@ -20,6 +21,7 @@ public class StationDto implements Comparable<StationDto> {
 		this.frequency = station.getWeekFrequency();
 		this.workFrequency = station.getWorkWeekFrequency();
 		this.location = new GeoLocationDto(station.getCoordinates());
+		this.setDelayedTrains(station.getTrainsDelayed());
 	}
 
 	public String getName() {
@@ -68,6 +70,14 @@ public class StationDto implements Comparable<StationDto> {
 
 	public void setWorkFrequency(float workFrequency) {
 		this.workFrequency = workFrequency;
+	}
+
+	public int getDelayedTrains() {
+		return delayedTrains;
+	}
+
+	public void setDelayedTrains(int delayedTrains) {
+		this.delayedTrains = delayedTrains;
 	}
 
 	public static List<StationDto> fromList(List<Station> list) {

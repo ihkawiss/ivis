@@ -1,5 +1,7 @@
 package ch.fhnw.ivis.ivispro.domain;
 
+import java.util.List;
+
 import com.opencsv.bean.CsvBindByName;
 
 /**
@@ -18,6 +20,54 @@ public class Station {
 
 	@CsvBindByName(column = "geopos", required = true)
 	private String coordinates;
+
+	private List<TrainEvent> events;
+
+	private int trainsOnTime;
+
+	private int trainsDelayed;
+
+	private float delayRatio;
+
+	public int getTrainsOnTime() {
+		return trainsOnTime;
+	}
+
+	public void setTrainsOnTime(int trainsOnTime) {
+		this.trainsOnTime = trainsOnTime;
+	}
+
+	public int getTrainsDelayed() {
+		return trainsDelayed;
+	}
+
+	public void setTrainsDelayed(int trainsDelayed) {
+		this.trainsDelayed = trainsDelayed;
+	}
+
+	public float getDelayRatio() {
+		return delayRatio;
+	}
+
+	public void setDelayRatio(float delayRatio) {
+		this.delayRatio = delayRatio;
+	}
+
+	public List<TrainEvent> getEvents() {
+		return events;
+	}
+
+	public void setEvents(List<TrainEvent> events) {
+		this.events = events;
+	}
+
+	public void setWorkWeekFrequency(float workWeekFrequency) {
+		this.workWeekFrequency = workWeekFrequency;
+	}
+
+	public void setWeekFrequency(float weekFrequency) {
+		this.weekFrequency = weekFrequency;
+	}
 
 	public String getName() {
 		return name;

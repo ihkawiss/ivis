@@ -4,8 +4,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.net.URL;
+import java.time.LocalDate;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import javax.annotation.PostConstruct;
 
@@ -32,7 +35,7 @@ public class StationService {
 
 	@PostConstruct
 	public void init() {
-		log.info("StationService initialized, loading frequency data.");
+		log.info("StationService initialized, loading data.");
 
 		try {
 			long startTime = System.currentTimeMillis();
@@ -45,9 +48,32 @@ public class StationService {
 			startTime = System.currentTimeMillis();
 			url = getClass().getClassLoader().getResource(TRAIN_DATA);
 			reader = new FileReader(new File(url.getFile()));
-			events = new CsvToBeanBuilder<TrainEvent>(reader).withSeparator(';').withType(TrainEvent.class).build().parse();
+			events = new CsvToBeanBuilder<TrainEvent>(reader).withSeparator(';').withType(TrainEvent.class).build()
+					.parse();
 			elapsedTime = System.currentTimeMillis() - startTime;
 			log.info("loaded {} train events in {}ms from {}", events.size(), elapsedTime, FREQUENCY_FILE);
+
+			log.info("assigning train events to stations");
+			startTime = System.currentTimeMillis();
+			for (Station station : stations) {
+				List<TrainEvent> found = events.stream()
+						.filter(e -> e.getStationName().equalsIgnoreCase(station.getName()))
+						.collect(Collectors.toList());
+				station.setEvents(found);
+
+				// calc some statistics
+				int delayedTrains = found.stream().filter(e -> e.isHasArrivalDelay() || e.isHasDepartureDelay())
+						.collect(Collectors.toList()).size();
+				int trainsOnTime = found.size() - delayedTrains;
+				float delayRatio = delayedTrains / (float) (found.size() / 100);
+
+				station.setDelayRatio(delayRatio);
+				station.setTrainsOnTime(trainsOnTime);
+				station.setTrainsDelayed(delayedTrains);
+			}
+			elapsedTime = System.currentTimeMillis() - startTime;
+			log.info("assignment of {} train events took {}ms", events.size(), elapsedTime);
+
 		} catch (IllegalStateException | FileNotFoundException e) {
 			log.error("unable to initialize station service", e);
 			throw new RuntimeException(e); // re-throw
@@ -64,14 +90,31 @@ public class StationService {
 
 		stationDtos = stationDtos.subList(start, end);
 
+		// max delays of a station
+		int maxDelays = stations.stream().max(Comparator.comparing(Station::getTrainsDelayed)).get().getTrainsDelayed();
+		int minDelays = stations.stream().min(Comparator.comparing(Station::getTrainsDelayed)).get().getTrainsDelayed();
+
 		// calculate dimension for each station
 		float ratioPerPosition = 100f / stationDtos.size();
 		for (int i = 0; i < stationDtos.size(); i++) {
 			float dimension = (stationDtos.size() - i) * ratioPerPosition;
 			stationDtos.get(i).setDimension(dimension);
+			stationDtos.get(i).setColor(calcColor(maxDelays, minDelays, stationDtos.get(i).getDelayedTrains()));
 		}
 
 		return stationDtos;
+	}
+
+	private String calcColor(int max, int min, int value) {
+		assert max > min && value <= max && value >= min;
+
+		float valueRatio = value / (float) max;
+
+		int red = (int) (255f * valueRatio);
+		int green = (int) (255f - red);
+		int blue = (int) (4f - 4 * valueRatio);
+
+		return String.format("%d %d %d", red, green, blue);
 	}
 
 }
