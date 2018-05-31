@@ -73,7 +73,9 @@ public class StationDto implements Comparable<StationDto> {
 	public static List<StationDto> fromList(List<Station> list) {
 		List<StationDto> dtoList = new ArrayList<>();
 		for (Station station : list) {
-			dtoList.add(new StationDto(station));
+			if (station.getWeekFrequency() > 0) {
+				dtoList.add(new StationDto(station));
+			}
 		}
 		return dtoList;
 	}

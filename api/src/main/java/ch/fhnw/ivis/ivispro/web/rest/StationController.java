@@ -1,6 +1,5 @@
 package ch.fhnw.ivis.ivispro.web.rest;
 
-import java.util.Collections;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,17 +21,8 @@ public class StationController {
 	private StationService stationService;
 
 	@GetMapping
-	public ResponseEntity<List<StationDto>> getAllStations(@RequestParam(required = false) String sort) {
-		List<StationDto> allStations = stationService.getAllStations();
-
-		// sorting according sort parameter
-		switch (sort != null ? sort.toLowerCase() : "") {
-		case "frequency,desc":
-			Collections.sort(allStations);
-		case "frequency,asc":
-			Collections.reverse(allStations);
-		}
-
+	public ResponseEntity<List<StationDto>> getAllStations(@RequestParam(required = false) String subset) {
+		List<StationDto> allStations = stationService.getAllStations(0, 20);
 		return new ResponseEntity<>(allStations, HttpStatus.OK);
 	}
 
