@@ -13,6 +13,8 @@ public class StationDto implements Comparable<StationDto> {
 	private float frequency;
 	private float workFrequency;
 	private int delayedTrains;
+	private int trainsOnTime;
+	private int delayRatio;
 
 	private GeoLocationDto location;
 
@@ -22,6 +24,24 @@ public class StationDto implements Comparable<StationDto> {
 		this.workFrequency = station.getWorkWeekFrequency();
 		this.location = new GeoLocationDto(station.getCoordinates());
 		this.delayedTrains = station.getTrainsDelayed();
+		this.trainsOnTime = station.getTrainsOnTime();
+		this.delayRatio = (int) (delayedTrains == 0 ? 0.0f : delayedTrains / (float)(delayedTrains + trainsOnTime) * 100);
+	}
+
+	public int getTrainsOnTime() {
+		return trainsOnTime;
+	}
+
+	public void setTrainsOnTime(int trainsOnTime) {
+		this.trainsOnTime = trainsOnTime;
+	}
+
+	public int getDelayRatio() {
+		return delayRatio;
+	}
+
+	public void setDelayRatio(int delayRatio) {
+		this.delayRatio = delayRatio;
 	}
 
 	public String getName() {

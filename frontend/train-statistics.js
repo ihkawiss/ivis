@@ -16,25 +16,21 @@ $.ajax({
         var markers = L.markerClusterGroup({
             showCoverageOnHover: false,
             iconCreateFunction: function(cluster) {
-                // check if a child cluster has delay
-                let delays = getDelayCount(cluster);
-                let colorClass = 'green';
-                
-                if(delays > 50) colorClass = 'orange';
-                if(delays > 100) colorClass = 'red';
+                let delays = getDelayRatioForCluster(cluster);
+                let colorClass = getDelayColorClass(delays);
 
-                return L.divIcon({ html: '<span>' + delays + '</span>', className: 'clusterIcon ' + colorClass });
+                return L.divIcon({ html: '<span>' + delays + '%</span>', className: 'clusterIcon ' + colorClass });
             }
         });
         response.forEach(element => {
             markers.addLayer(
                 L.circle([element.location.longitude, element.location.latitude], {
-                    color: element.color,
-                    fillColor: element.color,
+                    color: getDelayColor(element.delayRatio),
+                    fillColor: getDelayColor(element.delayRatio),
                     fillOpacity: 0.5,
                     opacity: 0.8,
                     radius: 500,
-                    delayedTrains: element.delayedTrains
+                    delayRatio: element.delayRatio
                 })
             );
         });
@@ -51,12 +47,36 @@ $.ajax({
  * 
  * @param {Cluster} cluster calculate delayed trains for 
  */
-function getDelayCount(cluster) {
+function getDelayRatioForCluster(cluster) {
     let children = cluster.getAllChildMarkers();
     let delayCount = 0;
     children.forEach(marker => {
-        delayCount += marker.options.delayedTrains;
+        delayCount += marker.options.delayRatio;
     });
 
-    return delayCount;
+    return (delayCount / children.length).toFixed(0);
+}
+
+/**
+ * Determines the appropriate color class.
+ * 
+ * @param {delayRatio} delayRatio 
+ */
+function getDelayColorClass(delayRatio) {
+    let colorClass = 'green';
+    if(delayRatio > 10) colorClass = 'orange';
+    if(delayRatio > 30) colorClass = 'red';
+    return colorClass;
+}
+
+/**
+ * Determines the appropriate color class.
+ * 
+ * @param {delayRatio} delayRatio 
+ */
+function getDelayColor(delayRatio) {
+    let colorClass = 'rgba(76, 175, 80, 0.7)';
+    if(delayRatio > 10) colorClass = 'rgba(255, 152, 0, 0.7)';
+    if(delayRatio > 30) colorClass = 'rgba(255, 0, 0, 0.7)';
+    return colorClass;
 }
