@@ -31,7 +31,7 @@ $.ajax({
                     opacity: 0.8,
                     radius: 500,
                     delayRatio: element.delayRatio
-                })
+                }).on('click', (event) => showDetailView(event, element))
             );
         });
 
@@ -79,4 +79,31 @@ function getDelayColor(delayRatio) {
     if(delayRatio > 10) colorClass = 'rgba(255, 152, 0, 0.7)';
     if(delayRatio > 30) colorClass = 'rgba(255, 0, 0, 0.7)';
     return colorClass;
+}
+
+function showDetailView(event, element){
+    // remove previous installed container
+    $('.detail-container').remove();
+
+    let container = $("<div>", {class: 'detail-container'});
+    
+    // add close button
+    let close = $("<div>", {class: 'close'});
+    container.append(close);
+    close.on('click', () => {
+        container.animate({width: '0%', opacity: 0}, 500);
+    });
+
+    // add title
+    let title = $("<span>", {class: 'title'});
+    title.text(element.name);
+    container.append(title);
+
+    $("#map").append(container);
+
+    // animation
+    container.animate({width: '100%', opacity: 1}, 500, () => {
+        title.animate({opacity: 1}, 500);
+    });
+    
 }

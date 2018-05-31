@@ -15,3 +15,50 @@
 .red{ background-color: rgba(255, 0, 0, 0.7)}
 .green{ background-color: rgba(76, 175, 80, 0.3);}
 .orange{ background-color: rgba(255, 152, 0, 0.5);}
+
+.detail-container {
+    background-color: #000000;
+    opacity: 0;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    display: block;
+    z-index: 999999999999999;
+    position: absolute;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    opacity: 0;
+}
+
+.close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: white;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+  
