@@ -80,14 +80,12 @@ public class StationService {
 
 	}
 
-	public List<StationDto> getAllStations(int start, int end) {
+	public List<StationDto> getAllStations() {
 		List<StationDto> stationDtos = StationDto.fromList(stations);
 
 		// descending by frequency
 		Collections.sort(stationDtos);
 		Collections.reverse(stationDtos);
-
-		stationDtos = stationDtos.subList(start, end);
 
 		// max delays of a station
 		int maxDelays = stations.stream().max(Comparator.comparing(Station::getTrainsDelayed)).get().getTrainsDelayed();

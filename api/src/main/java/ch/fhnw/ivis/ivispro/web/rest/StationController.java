@@ -2,6 +2,8 @@ package ch.fhnw.ivis.ivispro.web.rest;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,12 +19,17 @@ import ch.fhnw.ivis.ivispro.service.dto.StationDto;
 @RequestMapping("/api/station")
 public class StationController {
 
+	private final Logger log = LoggerFactory.getLogger(StationController.class);
+
 	@Autowired
 	private StationService stationService;
 
 	@GetMapping
 	public ResponseEntity<List<StationDto>> getAllStations(@RequestParam(required = false) String subset) {
-		List<StationDto> allStations = stationService.getAllStations(0, 400);
+		long startTime = System.currentTimeMillis();
+		log.info("new request to get all station data");
+		List<StationDto> allStations = stationService.getAllStations();
+		log.info("served get all station data request within {}ms", System.currentTimeMillis() - startTime);
 		return new ResponseEntity<>(allStations, HttpStatus.OK);
 	}
 

@@ -21,7 +21,7 @@ public class StationDto implements Comparable<StationDto> {
 		this.frequency = station.getWeekFrequency();
 		this.workFrequency = station.getWorkWeekFrequency();
 		this.location = new GeoLocationDto(station.getCoordinates());
-		this.setDelayedTrains(station.getTrainsDelayed());
+		this.delayedTrains = station.getTrainsDelayed();
 	}
 
 	public String getName() {
