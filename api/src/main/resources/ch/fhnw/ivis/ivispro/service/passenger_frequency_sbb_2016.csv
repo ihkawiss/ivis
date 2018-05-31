@@ -1,0 +1,463 @@
+Code;Bahnhof_Haltestelle;Bezugsjahr;DTV;DMW;Eigner;Bemerkung;geopos;lod
+KGO;Küsnacht Goldbach;2016-01-01;1600;2000.0;SBB;;47.3268539021, 8.57595174932;http://lod.opentransportdata.swiss/didok/8503141
+LFG;Laufenburg;2016-01-01;790;880.0;SBB;;47.5597640916, 8.06127319304;http://lod.opentransportdata.swiss/didok/8500322
+KLI;Klingnau;2016-01-01;570;680.0;SBB;;47.5820892736, 8.24881875083;http://lod.opentransportdata.swiss/didok/8516176
+KWL;Kesswil;2016-01-01;260;280.0;SBB;;47.5954978156, 9.31740544782;http://lod.opentransportdata.swiss/didok/8506123
+RSHF;Rorschach Hafen;2016-01-01;1300;1400.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2016 eingeschränkt und somit ein Vergleich mit der Angabe 2014 nicht sinnvoll.;47.4785940343, 9.49290567677;http://lod.opentransportdata.swiss/didok/8506306
+SCHN;Schlattingen;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.6666263051, 8.77041438581;http://lod.opentransportdata.swiss/didok/8503429
+RSST;Rorschach Stadt;2016-01-01;2300;2700.0;SBB;;47.4754476463, 9.48971870021;http://lod.opentransportdata.swiss/didok/8506322
+RUES;Rüschlikon;2016-01-01;2900;3400.0;SBB;;47.3071323847, 8.55515146936;http://lod.opentransportdata.swiss/didok/8503201
+RUE;Rüti ZH;2016-01-01;10000;11400.0;SBB;;47.2604821005, 8.8540677825;http://lod.opentransportdata.swiss/didok/8503121
+REID;Reiden;2016-01-01;1500;1700.0;SBB;;47.2414629092, 7.96875676951;http://lod.opentransportdata.swiss/didok/8502003
+OGL;Oberglatt;2016-01-01;6100;7100.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.4702034518, 8.51060488949;http://lod.opentransportdata.swiss/didok/8503312
+ORDD;Oberrieden Dorf;2016-01-01;1500;1800.0;SBB;;47.2767239721, 8.57763334225;http://lod.opentransportdata.swiss/didok/8502209
+REB;Rebstein-Marbach;2016-01-01;270;310.0;SBB;;47.3926373927, 9.58675061708;http://lod.opentransportdata.swiss/didok/8506318
+OLH;Olten Hammer;2016-01-01;400;470.0;SBB;;47.3485517008, 7.8977062126;http://lod.opentransportdata.swiss/didok/8500217
+RAET;Räterschen;2016-01-01;650;740.0;SBB;;47.4986756956, 8.79499713285;http://lod.opentransportdata.swiss/didok/8506015
+RAR;Raron;2016-01-01;650;750.0;SBB;;46.3062732767, 7.80150766492;http://lod.opentransportdata.swiss/didok/8501604
+MSCH;Münsterlingen-Scherzingen;2016-01-01;290;310.0;SBB;;47.6334235783, 9.2269983596;http://lod.opentransportdata.swiss/didok/8506126
+MOER;Mörschwil;2016-01-01;280;310.0;SBB;;47.4747707737, 9.41437284119;http://lod.opentransportdata.swiss/didok/8506304
+NB;Niederbipp;2016-01-01;630;730.0;SBB;;47.2703963923, 7.69480825358;http://lod.opentransportdata.swiss/didok/8500211
+NH;Neuhausen;2016-01-01;1600;1800.0;SBB;;47.683134176, 8.62491498919;http://lod.opentransportdata.swiss/didok/8503423
+MIT;Mitlödi;2016-01-01;280;320.0;SBB;;47.0101282312, 9.08119403324;http://lod.opentransportdata.swiss/didok/8503232
+MU;Muttenz;2016-01-01;4900;6000.0;SBB;;47.5335803903, 7.64787914262;http://lod.opentransportdata.swiss/didok/8500020
+MOLS;Mols;2016-01-01;90;100.0;SBB;;47.1129874927, 9.27680343664;http://lod.opentransportdata.swiss/didok/8509415
+WWAL;Winterthur Wallrüti;2016-01-01;1200;1400.0;SBB;Aus erhebungstechnischen Gründen sind sowohl die Aussagekraft der Angabe 2014 als auch diejenige der Angabe 2016 eingeschränkt und somit ein Vergleich der beiden Angaben nicht sinnvoll.;47.516719, 8.76086862997;http://lod.opentransportdata.swiss/didok/8506038
+WO;Wohlen;2016-01-01;5300;6400.0;SBB;Ohne BDWM.;47.3484618374, 8.26978121872;http://lod.opentransportdata.swiss/didok/8502213
+WGR;Winterthur Grüze;2016-01-01;1800;2200.0;SBB;;47.4987506397, 8.75103748096;http://lod.opentransportdata.swiss/didok/8506001
+WTOE;Winterthur Töss;2016-01-01;620;710.0;SBB;;47.4898075094, 8.70929159585;http://lod.opentransportdata.swiss/didok/8506044
+WZ;Wetzikon;2016-01-01;23600;27700.0;SBB;;47.3180331432, 8.79226951209;http://lod.opentransportdata.swiss/didok/8503123
+WL;Wald;2016-01-01;790;870.0;SBB;;47.2726849167, 8.91398907071;http://lod.opentransportdata.swiss/didok/8503138
+FT;Feuerthalen;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.6921636376, 8.64595208918;http://lod.opentransportdata.swiss/didok/8503425
+FF;Frauenfeld;2016-01-01;12600;14200.0;SBB;Inklusive FW.;47.5581599749, 8.89653893491;http://lod.opentransportdata.swiss/didok/8506100
+EW;Etzwilen;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.6611436806, 8.81859374588;http://lod.opentransportdata.swiss/didok/8506025
+FEL;Felben-Wellhausen;2016-01-01;480;560.0;SBB;;47.5771019005, 8.94316091804;http://lod.opentransportdata.swiss/didok/8506101
+ESB;Eschenbach;2016-01-01;810;930.0;SBB;;47.1323911487, 8.32277893852;http://lod.opentransportdata.swiss/didok/8502022
+ZZ;Bad Zurzach;2016-01-01;1300;1500.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2016 eingeschränkt und somit ein Vergleich mit der Angabe 2014 nicht sinnvoll.;47.5883101087, 8.29556465398;http://lod.opentransportdata.swiss/didok/8503409
+AA;Aarau;2016-01-01;38000;44400.0;SBB;Ohne WSB.;47.3913553369, 8.05125354274;http://lod.opentransportdata.swiss/didok/8502113
+BN;Bern;2016-01-01;188100;210000.0;SBB;Ohne RBS.;46.948824497, 7.43911900576;http://lod.opentransportdata.swiss/didok/8507000
+BAAN;Baar Neufeld;2016-01-01;820;1100.0;SBB;;47.1884876743, 8.51775897551;http://lod.opentransportdata.swiss/didok/8515992
+BGL;Bürglen;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.5491005107, 9.14985544325;http://lod.opentransportdata.swiss/didok/8506106
+BIBD;Biel/Bienne Bözingenfeld/Champ;2016-01-01;410;550.0;SBB;;47.1583882845, 7.29458712956;http://lod.opentransportdata.swiss/didok/8518771
+BOS;Boswil-Bünzen;2016-01-01;730;850.0;SBB;;47.305174603, 8.31527271204;http://lod.opentransportdata.swiss/didok/8502214
+BURN;Buchrain;2016-01-01;1300;1600.0;SBB;;47.0936431378, 8.35663714452;http://lod.opentransportdata.swiss/didok/8516350
+BG;Brugg AG;2016-01-01;20200;24000.0;SBB;;47.4808528316, 8.20882744791;http://lod.opentransportdata.swiss/didok/8500309
+BWL;Birrwil;2016-01-01;190;210.0;SBB;;47.2878476573, 8.19899810707;http://lod.opentransportdata.swiss/didok/8502033
+BR;Brig;2016-01-01;17000;17400.0;SBB;;46.3194210071, 7.98809158467;http://lod.opentransportdata.swiss/didok/8501609
+EMB;Embrach-Rorbas;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.5205878296, 8.5870549795;http://lod.opentransportdata.swiss/didok/8506041
+DT;Dietikon;2016-01-01;19900;23300.0;SBB;Ohne BDWM.;47.405777802, 8.40496908474;http://lod.opentransportdata.swiss/didok/8503508
+DOE;Döttingen;2016-01-01;2300;2700.0;SBB;;47.5752638935, 8.25634387912;http://lod.opentransportdata.swiss/didok/8503501
+DK;Däniken;2016-01-01;770;980.0;SBB;;47.356386391, 7.97875336334;http://lod.opentransportdata.swiss/didok/8502111
+EI;Eiken;2016-01-01;330;380.0;SBB;;47.5330359504, 7.98977700634;http://lod.opentransportdata.swiss/didok/8500304
+GUN;Guntershausen;2016-01-01;370;430.0;SBB;;47.4741351028, 8.91701626605;http://lod.opentransportdata.swiss/didok/8506012
+HERL;Herrliberg-Feldmeilen;2016-01-01;3900;4700.0;SBB;;47.2818232851, 8.61271954112;http://lod.opentransportdata.swiss/didok/8503103
+HOSA;Hochdorf Schönau;2016-01-01;610;680.0;SBB;;47.1646547839, 8.29821242385;http://lod.opentransportdata.swiss/didok/8502042
+HU;Hunzenschwil;2016-01-01;520;620.0;SBB;;47.3882836417, 8.12567843923;http://lod.opentransportdata.swiss/didok/8502104
+KAU;Kaiseraugst;2016-01-01;2600;3100.0;SBB;;47.5384906334, 7.72412101576;http://lod.opentransportdata.swiss/didok/8500300
+HEBG;Heerbrugg;2016-01-01;3700;4400.0;SBB;;47.4103853071, 9.62724352946;http://lod.opentransportdata.swiss/didok/8506317
+HED;Hedingen;2016-01-01;2200;2600.0;SBB;;47.2987825148, 8.44595351443;http://lod.opentransportdata.swiss/didok/8502223
+JE;Jestetten;2016-01-01;1100;1200.0;SBB;;47.6544006039, 8.57327389271;http://lod.opentransportdata.swiss/didok/8503421
+HO;Hochdorf;2016-01-01;1800;2200.0;SBB;;47.1669743615, 8.28868696709;http://lod.opentransportdata.swiss/didok/8502024
+IM;Immensee;2016-01-01;410;530.0;SBB;;47.0916137781, 8.46266014649;http://lod.opentransportdata.swiss/didok/8505003
+LST;Liestal;2016-01-01;17200;20100.0;SBB;Ohne WB.;47.4844551308, 7.73135468775;http://lod.opentransportdata.swiss/didok/8500023
+LINB;Linthal Braunwaldbahn;2016-01-01;310;270.0;SBB;;46.928393834, 9.00248305864;http://lod.opentransportdata.swiss/didok/8503240
+MERL;Merlischachen;2016-01-01;180;200.0;SBB;;47.0676559849, 8.40903921336;http://lod.opentransportdata.swiss/didok/8505011
+LUET;Lütisburg;2016-01-01;220;250.0;SBB;;47.3838273619, 9.07067425759;http://lod.opentransportdata.swiss/didok/8506204
+LY;Lyss;2016-01-01;10500;12200.0;SBB;;47.0763151407, 7.30629081519;http://lod.opentransportdata.swiss/didok/8504414
+SLG;Sulgen;2016-01-01;1100;1400.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2016 eingeschränkt und somit ein Vergleich mit der Angabe 2014 nicht sinnvoll.;47.5387993681, 9.18367857671;http://lod.opentransportdata.swiss/didok/8506217
+STET;Stettbach;2016-01-01;21000;25100.0;SBB;;47.3972121248, 8.59613281648;http://lod.opentransportdata.swiss/didok/8503147
+UTW;Uttwil;2016-01-01;390;420.0;SBB;;47.5860214293, 9.33968840224;http://lod.opentransportdata.swiss/didok/8506122
+STM;Stammheim;2016-01-01;530;600.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2016 eingeschränkt und somit ein Vergleich mit der Angabe 2014 nicht sinnvoll.;47.6348793716, 8.78872663664;http://lod.opentransportdata.swiss/didok/8506024
+STKT;St. Katharinental;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.6875587749, 8.73201759728;http://lod.opentransportdata.swiss/didok/8506148
+SIT;Sitterdorf;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.5052217763, 9.24898518569;http://lod.opentransportdata.swiss/didok/8506214
+SW;Solothurn West;2016-01-01;1400;1700.0;SBB;;47.2067084108, 7.53194511273;http://lod.opentransportdata.swiss/didok/8500206
+SCHK;Schottikon;2016-01-01;360;400.0;SBB;;47.500115854, 8.8117058285;http://lod.opentransportdata.swiss/didok/8506035
+STN;Steinen;2016-01-01;560;650.0;SBB;;47.0476633004, 8.60743525261;http://lod.opentransportdata.swiss/didok/8505005
+SK;Sisikon;2016-01-01;140;150.0;SBB;;46.9492536033, 8.62073068694;http://lod.opentransportdata.swiss/didok/8505111
+ZUE;Zürich HB;2016-01-01;420700;466800.0;SBB;"Umfasst auch ZLOE, ZMUS und ZUSZ; ohne Uetlibergbahn der SZU.";47.3781765756, 8.54019221036;http://lod.opentransportdata.swiss/didok/8503000
+ZWD;Zweidlen;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.5704402649, 8.46789206212;http://lod.opentransportdata.swiss/didok/8503405
+ZWOL;Zürich Wollishofen;2016-01-01;3200;3500.0;SBB;;47.3474399219, 8.53358828018;http://lod.opentransportdata.swiss/didok/8503009
+ZB;Ziegelbrücke;2016-01-01;8900;9600.0;SBB;;47.1361516592, 9.06003718984;http://lod.opentransportdata.swiss/didok/8503225
+KE;Kemptthal;2016-01-01;560;640.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.452833265, 8.70557069755;http://lod.opentransportdata.swiss/didok/8503304
+HI;Hinwil;2016-01-01;2500;2900.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.3000509, 8.83969785564;http://lod.opentransportdata.swiss/didok/8503130
+HPT;Hauptwil;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.4768608536, 9.25157587262;http://lod.opentransportdata.swiss/didok/8506212
+HGO;Horgen Oberdorf;2016-01-01;2200;2700.0;SBB;;47.2587470381, 8.58980260632;http://lod.opentransportdata.swiss/didok/8502208
+HOBK;Holderbank AG;2016-01-01;310;390.0;SBB;;47.4286345989, 8.16659869889;http://lod.opentransportdata.swiss/didok/8502128
+HDK;Hendschiken;2016-01-01;400;500.0;SBB;;47.3894242237, 8.20737399629;http://lod.opentransportdata.swiss/didok/8502211
+KLB;Kloten Balsberg;2016-01-01;1600;1900.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.4422864693, 8.57070137795;http://lod.opentransportdata.swiss/didok/8503309
+KNO;Knonau;2016-01-01;920;1100.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.2202591199, 8.4667085831;http://lod.opentransportdata.swiss/didok/8502226
+KL;Kloten;2016-01-01;5100;5700.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.4486070251, 8.58379121249;http://lod.opentransportdata.swiss/didok/8503308
+LAN;Langwiesen;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.6834480371, 8.66229616245;http://lod.opentransportdata.swiss/didok/8503426
+KOL;Kollbrunn;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.4583242963, 8.77399383924;http://lod.opentransportdata.swiss/didok/8506004
+KLW;Killwangen-Spreitenbach;2016-01-01;3800;4500.0;SBB;;47.433328238, 8.35419430986;http://lod.opentransportdata.swiss/didok/8503506
+KGD;Küngoldingen;2016-01-01;130;150.0;SBB;;47.3019656073, 7.94169493557;http://lod.opentransportdata.swiss/didok/8502120
+KUES;Küsnacht ZH;2016-01-01;5100;6100.0;SBB;;47.3191528026, 8.58061588761;http://lod.opentransportdata.swiss/didok/8503101
+LQ;Landquart;2016-01-01;13300;13100.0;SBB;;46.9674389764, 9.55402859224;http://lod.opentransportdata.swiss/didok/8509002
+KK;Kölliken;2016-01-01;640;760.0;SBB;;47.3372920119, 8.0264455205;http://lod.opentransportdata.swiss/didok/8502101
+NWD;Niederweningen Dorf;2016-01-01;860;1000.0;SBB;;47.5059060903, 8.38104986019;http://lod.opentransportdata.swiss/didok/8503318
+NAEF;Näfels-Mollis;2016-01-01;1400;1600.0;SBB;;47.0987196928, 9.0699449253;http://lod.opentransportdata.swiss/didok/8503227
+OEF;Oberentfelden;2016-01-01;750;890.0;SBB;;47.3564807476, 8.04837791732;http://lod.opentransportdata.swiss/didok/8502102
+NIE;Niederhasli;2016-01-01;2100;2400.0;SBB;;47.4783287603, 8.48869130494;http://lod.opentransportdata.swiss/didok/8503314
+NET;Netstal;2016-01-01;800;910.0;SBB;;47.0645276001, 9.05942421662;http://lod.opentransportdata.swiss/didok/8503228
+NEB;Nebikon;2016-01-01;1400;1700.0;SBB;;47.192373647, 7.97744173598;http://lod.opentransportdata.swiss/didok/8502005
+MUEL;Müllheim-Wigoltingen;2016-01-01;550;640.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2016 eingeschränkt und somit ein Vergleich mit der Angabe 2014 nicht sinnvoll.;47.5881673349, 9.01550138775;http://lod.opentransportdata.swiss/didok/8506103
+MTM;Mettmenstetten;2016-01-01;1900;2200.0;SBB;;47.244071939, 8.45736538581;http://lod.opentransportdata.swiss/didok/8502225
+MUEH;Mühlau;2016-01-01;180;210.0;SBB;;47.225014385, 8.3885103326;http://lod.opentransportdata.swiss/didok/8502217
+MI;Muri AG;2016-01-01;2200;2600.0;SBB;;47.2766601869, 8.3397982935;http://lod.opentransportdata.swiss/didok/8502215
+ML;Meilen;2016-01-01;8000;9300.0;SBB;;47.2698122, 8.64429304135;http://lod.opentransportdata.swiss/didok/8503104
+RFAU;Rheinfelden Augarten;2016-01-01;980;1100.0;SBB;;47.5458662882, 7.76802232018;http://lod.opentransportdata.swiss/didok/8500313
+ROG;Roggwil-Wynau;2016-01-01;260;310.0;SBB;;47.2516286412, 7.81490475887;http://lod.opentransportdata.swiss/didok/8508101
+RH;Romanshorn;2016-01-01;10300;11300.0;SBB;;47.5655269844, 9.37936259732;http://lod.opentransportdata.swiss/didok/8506121
+LBD;Root D4;2016-01-01;800;1000.0;SBB;;47.1048571473, 8.37379836133;http://lod.opentransportdata.swiss/didok/8515997
+MF;Maienfeld;2016-01-01;790;890.0;SBB;;47.0038340592, 9.52919552142;http://lod.opentransportdata.swiss/didok/8509003
+LIN;Linthal;2016-01-01;350;380.0;SBB;;46.9255699583, 8.99777825107;http://lod.opentransportdata.swiss/didok/8503239
+LEN;Lengnau;2016-01-01;1100;1200.0;SBB;;47.1794233382, 7.36654652735;http://lod.opentransportdata.swiss/didok/8500201
+PRSR;Pratteln Salina Raurica;2016-01-01;1000;1200.0;SBB;;47.5305742249, 7.70986947527;http://lod.opentransportdata.swiss/didok/8517131
+RW;Rapperswil;2016-01-01;20900;22800.0;SBB;;47.2248877672, 8.81673057998;http://lod.opentransportdata.swiss/didok/8503110
+OBK;Oberkirch;2016-01-01;480;550.0;SBB;;47.1552315719, 8.11422262548;http://lod.opentransportdata.swiss/didok/8502011
+OI;Oberrüti;2016-01-01;330;390.0;SBB;;47.1659234421, 8.40476673935;http://lod.opentransportdata.swiss/didok/8502219
+PFU;Pfungen;2016-01-01;1400;1700.0;SBB;;47.5160332387, 8.64661156441;http://lod.opentransportdata.swiss/didok/8506042
+SLF;Schloss Laufen am Rheinfall;2016-01-01;440;370.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.6765598478, 8.61424692042;http://lod.opentransportdata.swiss/didok/8506039
+SH;Schaffhausen;2016-01-01;18200;20500.0;SBB;Ohne DB.;47.6982814692, 8.6327284859;http://lod.opentransportdata.swiss/didok/8503424
+SCAE;Schänis;2016-01-01;630;730.0;SBB;;47.1576544109, 9.04396432715;http://lod.opentransportdata.swiss/didok/8503119
+RUET;Rüti GL;2016-01-01;170;200.0;SBB;;46.934547281, 9.01302543269;http://lod.opentransportdata.swiss/didok/8503238
+SAF;Safenwil;2016-01-01;540;640.0;SBB;;47.32175296, 7.98350900936;http://lod.opentransportdata.swiss/didok/8502100
+SCWE;Schwerzenbach ZH;2016-01-01;10100;12100.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.3843802387, 8.6586595992;http://lod.opentransportdata.swiss/didok/8503127
+SIG;Siggenthal-Würenlingen;2016-01-01;1300;1600.0;SBB;;47.5206885967, 8.24066005982;http://lod.opentransportdata.swiss/didok/8503502
+SEM;Sempach-Neuenkirch;2016-01-01;2100;2400.0;SBB;;47.1160520887, 8.19596739854;http://lod.opentransportdata.swiss/didok/8502009
+SGBR;St. Gallen Bruggen;2016-01-01;310;350.0;SBB;;47.4072003987, 9.32964579651;http://lod.opentransportdata.swiss/didok/8506301
+SG;St. Gallen;2016-01-01;47400;53200.0;SBB;;47.4231790668, 9.36987712043;http://lod.opentransportdata.swiss/didok/8506302
+SIS;Sissach;2016-01-01;8000;9000.0;SBB;;47.4627456535, 7.81201832437;http://lod.opentransportdata.swiss/didok/8500026
+SEL;Selzach;2016-01-01;810;980.0;SBB;;47.2006188377, 7.45662984225;http://lod.opentransportdata.swiss/didok/8500204
+BSD;Bassersdorf;2016-01-01;4600;5300.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.4385636372, 8.62619947666;http://lod.opentransportdata.swiss/didok/8503307
+GD;Arth-Goldau;2016-01-01;12600;12800.0;SBB;Ohne RB.;47.04915622, 8.54949116322;http://lod.opentransportdata.swiss/didok/8505004
+BIM;Biel Mett;2016-01-01;510;630.0;SBB;;47.1447131206, 7.27247559035;http://lod.opentransportdata.swiss/didok/8504419
+BET;Bettlach;2016-01-01;630;790.0;SBB;;47.1949438967, 7.42836206864;http://lod.opentransportdata.swiss/didok/8500203
+BELL;Bellach;2016-01-01;570;680.0;SBB;;47.2089019374, 7.50785978776;http://lod.opentransportdata.swiss/didok/8500205
+BAA;Baar;2016-01-01;8300;9800.0;SBB;;47.1953625991, 8.52325583517;http://lod.opentransportdata.swiss/didok/8502206
+BU;Buchs SG;2016-01-01;4800;5300.0;SBB;Ohne Regionalverkehr ÖBB.;47.1684089962, 9.47862968189;http://lod.opentransportdata.swiss/didok/8509404
+BZS;Bischofszell Stadt;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.4921416385, 9.24146504156;http://lod.opentransportdata.swiss/didok/8506213
+BUD;Buchs-Dällikon;2016-01-01;2600;3200.0;SBB;;47.4533973239, 8.43557852512;http://lod.opentransportdata.swiss/didok/8503527
+BIR;Birmensdorf ZH;2016-01-01;4200;4800.0;SBB;;47.3574317945, 8.4375437434;http://lod.opentransportdata.swiss/didok/8502221
+BLU;Blumenau;2016-01-01;410;500.0;SBB;;47.2236693254, 8.84238332851;http://lod.opentransportdata.swiss/didok/8503113
+ALN;Altnau;2016-01-01;350;370.0;SBB;;47.6213657537, 9.26589677408;http://lod.opentransportdata.swiss/didok/8506125
+FI;Fischenthal;2016-01-01;130;150.0;SBB;;47.333298028, 8.92327465614;http://lod.opentransportdata.swiss/didok/8503136
+FB;Feldbach;2016-01-01;1200;1400.0;SBB;;47.2391975436, 8.78348281363;http://lod.opentransportdata.swiss/didok/8503109
+FL;Flüelen;2016-01-01;1600;1600.0;SBB;;46.9017256462, 8.62429304308;http://lod.opentransportdata.swiss/didok/8505112
+DAG;Dagmersellen;2016-01-01;950;1100.0;SBB;;47.2175519872, 7.97901545049;http://lod.opentransportdata.swiss/didok/8502004
+EBR;Emmenbrücke;2016-01-01;3700;4200.0;SBB;;47.0705979582, 8.28255105833;http://lod.opentransportdata.swiss/didok/8502021
+EG;Egerkingen;2016-01-01;1200;1400.0;SBB;;47.3148575546, 7.79894973749;http://lod.opentransportdata.swiss/didok/8500214
+DI;Dielsdorf;2016-01-01;2500;2900.0;SBB;;47.4824133475, 8.45942183431;http://lod.opentransportdata.swiss/didok/8503315
+GF;Glattfelden;2016-01-01;1000;1200.0;SBB;;47.5485571928, 8.52403632788;http://lod.opentransportdata.swiss/didok/8503401
+URDW;Urdorf Weihermatt;2016-01-01;2000;2300.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.3809708849, 8.43033031194;http://lod.opentransportdata.swiss/didok/8502229
+URD;Urdorf;2016-01-01;2200;2600.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.3908815923, 8.43471362358;http://lod.opentransportdata.swiss/didok/8502220
+TRIB;Triboltingen;2016-01-01;80;90.0;SBB;;47.6629006458, 9.10874984287;http://lod.opentransportdata.swiss/didok/8506118
+UZW;Uzwil;2016-01-01;4900;5800.0;SBB;;47.4364421946, 9.13097170762;http://lod.opentransportdata.swiss/didok/8506208
+TWN;Twann;2016-01-01;490;480.0;SBB;;47.0936555927, 7.15649171643;http://lod.opentransportdata.swiss/didok/8504228
+ZSTH;Zürich Stadelhofen;2016-01-01;71200;83300.0;SBB;Ohne FB.;47.3666105569, 8.54846647022;http://lod.opentransportdata.swiss/didok/8503003
+WILA;Wila;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.4177702961, 8.84846779076;http://lod.opentransportdata.swiss/didok/8506008
+ZTB;Zürich Tiefenbrunnen;2016-01-01;4400;5000.0;SBB;;47.3501235091, 8.56137239898;http://lod.opentransportdata.swiss/didok/8503004
+WBOL;Wangen bei Olten;2016-01-01;850;1000.0;SBB;;47.3413970205, 7.86834787109;http://lod.opentransportdata.swiss/didok/8500216
+WSEE;Winterthur Seen;2016-01-01;3000;3500.0;SBB;;47.4874349418, 8.76678904042;http://lod.opentransportdata.swiss/didok/8506002
+WAL;Walenstadt;2016-01-01;1500;1600.0;SBB;;47.1198710093, 9.31297181278;http://lod.opentransportdata.swiss/didok/8509414
+ZK;Zollikon;2016-01-01;1100;1300.0;SBB;;47.3373317337, 8.569717612;http://lod.opentransportdata.swiss/didok/8503100
+STK;Steckborn;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.6645058687, 8.98100858061;http://lod.opentransportdata.swiss/didok/8506136
+SGWI;St. Gallen Winkeln;2016-01-01;1000;1200.0;SBB;;47.4039256735, 9.30083970711;http://lod.opentransportdata.swiss/didok/8506300
+TD;Tann-Dürnten;2016-01-01;160;180.0;SBB;;47.2683703417, 8.85270412923;http://lod.opentransportdata.swiss/didok/8503139
+STE;Steinhausen;2016-01-01;980;1200.0;SBB;;47.1945798603, 8.47842234624;http://lod.opentransportdata.swiss/didok/8502227
+TK;Tecknau;2016-01-01;450;500.0;SBB;;47.4457572594, 7.88760523024;http://lod.opentransportdata.swiss/didok/8500028
+STA;Staad;2016-01-01;640;720.0;SBB;;47.4807713471, 9.53652077145;http://lod.opentransportdata.swiss/didok/8506312
+SUHR;Suhr;2016-01-01;1600;1900.0;SBB;;47.3716326855, 8.08227404767;http://lod.opentransportdata.swiss/didok/8502103
+ZWIE;Zürich Wiedikon;2016-01-01;10300;12400.0;SBB;;47.3714716204, 8.52346258297;http://lod.opentransportdata.swiss/didok/8503011
+MANN;Mannenbach-Salenstein;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.6736499577, 9.05277922071;http://lod.opentransportdata.swiss/didok/8506134
+MELN;Mellikon;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.5684839744, 8.35249723256;http://lod.opentransportdata.swiss/didok/8503414
+MAM;Mammern;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.6441576694, 8.91398444987;http://lod.opentransportdata.swiss/didok/8506137
+LU;Luchsingen-Hätzingen;2016-01-01;410;470.0;SBB;;46.9650649888, 9.0390086553;http://lod.opentransportdata.swiss/didok/8503236
+LOT;Lottstetten;2016-01-01;300;360.0;SBB;;47.6257356296, 8.56680664761;http://lod.opentransportdata.swiss/didok/8503420
+MOE;Möhlin;2016-01-01;3600;4200.0;SBB;;47.5618497594, 7.83385418673;http://lod.opentransportdata.swiss/didok/8500302
+KRA;Kradolf;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.5247196873, 9.20155757744;http://lod.opentransportdata.swiss/didok/8506216
+KRH;Kreuzlingen Hafen;2016-01-01;1600;1900.0;SBB;;47.6491676497, 9.18196081638;http://lod.opentransportdata.swiss/didok/8506128
+LDS;Landschlacht;2016-01-01;260;280.0;SBB;;47.6288954671, 9.24694004807;http://lod.opentransportdata.swiss/didok/8588122
+KIL;Kilchberg;2016-01-01;2800;3300.0;SBB;;47.3244274064, 8.54799908563;http://lod.opentransportdata.swiss/didok/8503200
+LB;Lenzburg;2016-01-01;23200;26900.0;SBB;;47.3911934191, 8.17037888645;http://lod.opentransportdata.swiss/didok/8502119
+LSN;Lausen;2016-01-01;1400;1600.0;SBB;;47.470196213, 7.75982160092;http://lod.opentransportdata.swiss/didok/8500024
+HGT;Henggart;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.5642523105, 8.68505196166;http://lod.opentransportdata.swiss/didok/8506046
+GLZB;Glanzenberg;2016-01-01;3300;3900.0;SBB;;47.3988744293, 8.4204230971;http://lod.opentransportdata.swiss/didok/8503512
+GUET;Güttingen;2016-01-01;320;340.0;SBB;;47.6087494286, 9.29222710394;http://lod.opentransportdata.swiss/didok/8506124
+HIK;Hitzkirch;2016-01-01;840;1000.0;SBB;;47.2226679578, 8.25198154865;http://lod.opentransportdata.swiss/didok/8502027
+KAB;Kaltbrunn;2016-01-01;270;320.0;SBB;;47.2179781456, 9.02241755712;http://lod.opentransportdata.swiss/didok/8503117
+KN;Kempten;2016-01-01;1600;2000.0;SBB;;47.3320368667, 8.80470571863;http://lod.opentransportdata.swiss/didok/8503300
+HG;Horgen;2016-01-01;7900;9400.0;SBB;;47.2614824887, 8.59690458831;http://lod.opentransportdata.swiss/didok/8503204
+WAST;Walterswil-Striegel;2016-01-01;100;120.0;SBB;;47.3199221956, 7.96318642397;http://lod.opentransportdata.swiss/didok/8502121
+WIN;Winkel am Zürichsee;2016-01-01;1300;1500.0;SBB;;47.29720073, 8.59897547971;http://lod.opentransportdata.swiss/didok/8503111
+WD;Wiesendangen;2016-01-01;850;1000.0;SBB;;47.5255401974, 8.77601496118;http://lod.opentransportdata.swiss/didok/8506017
+WS;Wallisellen;2016-01-01;13000;16200.0;SBB;;47.4127169827, 8.59191127027;http://lod.opentransportdata.swiss/didok/8503129
+W;Winterthur;2016-01-01;94300;108000.0;SBB;;47.5003335301, 8.72379907332;http://lod.opentransportdata.swiss/didok/8506000
+WE;Wettingen;2016-01-01;4500;5400.0;SBB;;47.4596367944, 8.3159863528;http://lod.opentransportdata.swiss/didok/8503505
+OFR;Otelfingen Golfpark;2016-01-01;580;720.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.455812722, 8.40209787525;http://lod.opentransportdata.swiss/didok/8503525
+RMZ;Rämismühle-Zell;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.4415398241, 8.81911811289;http://lod.opentransportdata.swiss/didok/8506006
+REK;Rekingen AG;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.569967429, 8.32711190205;http://lod.opentransportdata.swiss/didok/8503408
+OTH;Othmarsingen;2016-01-01;1100;1400.0;SBB;;47.4074269011, 8.21478836445;http://lod.opentransportdata.swiss/didok/8502105
+PIE;Pieterlen;2016-01-01;1000;1200.0;SBB;;47.1714342219, 7.34019009864;http://lod.opentransportdata.swiss/didok/8500200
+RZ;Rafz;2016-01-01;1700;1900.0;SBB;;47.6037893298, 8.54342564763;http://lod.opentransportdata.swiss/didok/8503404
+SIR;Sirnach;2016-01-01;910;1000.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.4619919682, 9.00045935104;http://lod.opentransportdata.swiss/didok/8506010
+SO;Solothurn;2016-01-01;15700;17800.0;SBB;Ohne ASM und RBS.;47.2041807751, 7.54268420304;http://lod.opentransportdata.swiss/didok/8500207
+STRI;Steinhausen Rigiblick;2016-01-01;750;980.0;SBB;;47.1878937296, 8.47969110761;http://lod.opentransportdata.swiss/didok/8518459
+STER;St. Erhard-Knutwil;2016-01-01;120;130.0;SBB;;47.1800770071, 8.07456185019;http://lod.opentransportdata.swiss/didok/8502010
+SIB;Siebnen-Wangen;2016-01-01;3200;3800.0;SBB;;47.1826674891, 8.90069892838;http://lod.opentransportdata.swiss/didok/8503221
+STCH;Steinach;2016-01-01;430;480.0;SBB;;47.5008611902, 9.44212099652;http://lod.opentransportdata.swiss/didok/8516271
+STAF;Stabio;2016-01-01;510;690.0;SBB;;45.8497253119, 8.94393965078;http://lod.opentransportdata.swiss/didok/8517519
+OWT;Oberwinterthur;2016-01-01;4800;5700.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.5079184546, 8.76037093131;http://lod.opentransportdata.swiss/didok/8506016
+MRT;Murten/Morat;2016-01-01;2000;2000.0;SBB;Ohne TPF.;46.9253915414, 7.11537589102;http://lod.opentransportdata.swiss/didok/8504128
+MSPI;Münsterlingen Spital;2016-01-01;520;640.0;SBB;;47.6320503917, 9.23610817435;http://lod.opentransportdata.swiss/didok/8506143
+NW;Niederweningen;2016-01-01;960;1100.0;SBB;;47.5111974542, 8.36960718376;http://lod.opentransportdata.swiss/didok/8503319
+MST;Münchenstein;2016-01-01;600;720.0;SBB;;47.5133857839, 7.61758557051;http://lod.opentransportdata.swiss/didok/8500119
+OEN;Oensingen;2016-01-01;5100;5700.0;SBB;;47.2850232125, 7.70985469445;http://lod.opentransportdata.swiss/didok/8500212
+NO;Nottwil;2016-01-01;890;1000.0;SBB;;47.1388047171, 8.13858805823;http://lod.opentransportdata.swiss/didok/8502008
+TU;Turbenthal;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.437383413, 8.84380329191;http://lod.opentransportdata.swiss/didok/8506007
+TLH;Thalheim-Altikon;2016-01-01;160;170.0;SBB;;47.5696197047, 8.75762721172;http://lod.opentransportdata.swiss/didok/8506022
+WCHW;Walchwil;2016-01-01;500;600.0;SBB;;47.0986827694, 8.51692521124;http://lod.opentransportdata.swiss/didok/8502205
+RTH;Rüthi SG;2016-01-01;110;120.0;SBB;;47.2867324557, 9.53604616419;http://lod.opentransportdata.swiss/didok/8509401
+SEV;Sevelen;2016-01-01;240;280.0;SBB;;47.1253714782, 9.49382469899;http://lod.opentransportdata.swiss/didok/8509406
+SA;Sargans;2016-01-01;10900;11900.0;SBB;;47.0453635269, 9.44539562754;http://lod.opentransportdata.swiss/didok/8509411
+SE;Seon;2016-01-01;670;780.0;SBB;;47.3461400227, 8.15878995065;http://lod.opentransportdata.swiss/didok/8502030
+ZGFR;Zug Fridbach;2016-01-01;240;280.0;SBB;;47.1565775965, 8.51227569316;http://lod.opentransportdata.swiss/didok/8515994
+WUER;Würenlos;2016-01-01;920;1100.0;SBB;;47.4457585301, 8.35764331882;http://lod.opentransportdata.swiss/didok/8503529
+BZN;Bischofszell Nord;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.5004169871, 9.23401945255;http://lod.opentransportdata.swiss/didok/8506215
+BI;Biel/Bienne;2016-01-01;46300;52100.0;SBB;Ohne ASM.;47.1328920532, 7.24290845288;http://lod.opentransportdata.swiss/didok/8504300
+BS;Basel SBB;2016-01-01;102700;114200.0;SBB;Ohne SNCF.;47.5474041527, 7.58955146721;http://lod.opentransportdata.swiss/didok/8500010
+BW;Beinwil am See;2016-01-01;960;1100.0;SBB;;47.2672189808, 8.20221962657;http://lod.opentransportdata.swiss/didok/8502034
+BRAG;Bad Ragaz;2016-01-01;2400;2700.0;SBB;;47.0103066077, 9.50521579767;http://lod.opentransportdata.swiss/didok/8509004
+BLG;Baldegg;2016-01-01;250;280.0;SBB;;47.1856838433, 8.28020982028;http://lod.opentransportdata.swiss/didok/8502025
+BIL;Bilten;2016-01-01;240;270.0;SBB;;47.1521909901, 9.02990001736;http://lod.opentransportdata.swiss/didok/8503224
+GSAG;Emmenbrücke Gersag;2016-01-01;3300;3700.0;SBB;;47.0783132004, 8.27679952708;http://lod.opentransportdata.swiss/didok/8502028
+FET;Fehraltorf;2016-01-01;3100;3800.0;SBB;;47.3851215525, 8.75026509676;http://lod.opentransportdata.swiss/didok/8503302
+FLA;Flawil;2016-01-01;3400;4000.0;SBB;;47.4151898192, 9.1897661689;http://lod.opentransportdata.swiss/didok/8506209
+AF;Affoltern am Albis;2016-01-01;6900;8100.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.276064074, 8.44658239143;http://lod.opentransportdata.swiss/didok/8502224
+AAT;Aathal;2016-01-01;690;750.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.3359563788, 8.76561022548;http://lod.opentransportdata.swiss/didok/8503124
+ABO;Aarburg-Oftringen;2016-01-01;2300;2700.0;SBB;;47.3202667174, 7.90820373354;http://lod.opentransportdata.swiss/didok/8502000
+DA;Dachsen;2016-01-01;840;930.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.6670843791, 8.61379705884;http://lod.opentransportdata.swiss/didok/8506049
+DSH;Diessenhofen;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.6854695764, 8.75227980348;http://lod.opentransportdata.swiss/didok/8503428
+EF;Effretikon;2016-01-01;16200;19100.0;SBB;;47.4258103324, 8.68666226267;http://lod.opentransportdata.swiss/didok/8503305
+DN;Deitingen;2016-01-01;560;650.0;SBB;;47.218217892, 7.61889907416;http://lod.opentransportdata.swiss/didok/8500209
+EBI;Ebikon;2016-01-01;1500;1800.0;SBB;;47.08425714, 8.34234535321;http://lod.opentransportdata.swiss/didok/8502200
+CHAA;Cham Alpenblick;2016-01-01;1400;1600.0;SBB;;47.1822828869, 8.47144117681;http://lod.opentransportdata.swiss/didok/8515995
+BRIT;Brittnau-Wikon;2016-01-01;170;190.0;SBB;;47.2626629521, 7.95702232358;http://lod.opentransportdata.swiss/didok/8502002
+BUE;Bülach;2016-01-01;14100;16500.0;SBB;;47.5239413008, 8.53618858988;http://lod.opentransportdata.swiss/didok/8503400
+BRU;Brunnen;2016-01-01;2600;2800.0;SBB;;46.9991749288, 8.61004816648;http://lod.opentransportdata.swiss/didok/8505007
+CHAM;Cham;2016-01-01;5200;6100.0;SBB;;47.1782423661, 8.45748408001;http://lod.opentransportdata.swiss/didok/8502203
+GSK;Gisikon-Root;2016-01-01;1100;1300.0;SBB;;47.1213263146, 8.39477668629;http://lod.opentransportdata.swiss/didok/8502201
+ZAS;Zürich Altstetten;2016-01-01;34500;42900.0;SBB;;47.3914808361, 8.4889402654;http://lod.opentransportdata.swiss/didok/8503001
+ZWIP;Zürich Wipkingen;2016-01-01;2100;2400.0;SBB;;47.3930313233, 8.52935905447;http://lod.opentransportdata.swiss/didok/8503015
+ZAF;Zürich Affoltern;2016-01-01;3800;4200.0;SBB;;47.4209123371, 8.5085656936;http://lod.opentransportdata.swiss/didok/8503008
+ZOER;Zürich Oerlikon;2016-01-01;72400;85700.0;SBB;;47.4115288802, 8.54411523121;http://lod.opentransportdata.swiss/didok/8503006
+ZGO;Zug Oberwil;2016-01-01;250;280.0;SBB;;47.147675872, 8.50992153777;http://lod.opentransportdata.swiss/didok/8502231
+ZWG;Zwingen;2016-01-01;2400;2800.0;SBB;;47.4337913284, 7.53045708322;http://lod.opentransportdata.swiss/didok/8500114
+HET;Hettlingen;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.5454376137, 8.69481326415;http://lod.opentransportdata.swiss/didok/8506045
+HUCH;Hünenberg Chämleten;2016-01-01;230;250.0;SBB;;47.1691518563, 8.44989778178;http://lod.opentransportdata.swiss/didok/8502306
+HUZY;Hünenberg Zythus;2016-01-01;1300;1500.0;SBB;;47.17360308, 8.45007424526;http://lod.opentransportdata.swiss/didok/8515996
+GS;Grenchen Süd;2016-01-01;4700;5500.0;SBB;;47.1887666151, 7.39817426522;http://lod.opentransportdata.swiss/didok/8500202
+GREL;Grellingen;2016-01-01;1500;1700.0;SBB;;47.4412906001, 7.59198326877;http://lod.opentransportdata.swiss/didok/8500115
+NHRH;Neuhausen Rheinfall;2016-01-01;530;520.0;SBB;;47.6796483277, 8.61745857524;http://lod.opentransportdata.swiss/didok/8518924
+NHOF;Neuenhof;2016-01-01;1500;1700.0;SBB;;47.4506605026, 8.33123368601;http://lod.opentransportdata.swiss/didok/8503511
+MH;Mühlehorn;2016-01-01;160;170.0;SBB;;47.1178401962, 9.17300255739;http://lod.opentransportdata.swiss/didok/8509418
+MEG;Meggen;2016-01-01;100;120.0;SBB;;47.0501422644, 8.38304450517;http://lod.opentransportdata.swiss/didok/8505001
+MO;Mosen;2016-01-01;170;180.0;SBB;;47.2442873199, 8.22414905535;http://lod.opentransportdata.swiss/didok/8502029
+MG;Murg;2016-01-01;250;250.0;SBB;;47.1131764998, 9.21502492933;http://lod.opentransportdata.swiss/didok/8509417
+OA;Oberaach;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.5532223119, 9.2709268739;http://lod.opentransportdata.swiss/didok/8506108
+RN;Rikon;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.4450032571, 8.79630774826;http://lod.opentransportdata.swiss/didok/8506005
+PFZ;Pfäffikon ZH;2016-01-01;5200;6200.0;SBB;;47.3670842127, 8.78477640275;http://lod.opentransportdata.swiss/didok/8503301
+OB;Oberbuchsiten;2016-01-01;720;860.0;SBB;;47.3052431626, 7.77171069136;http://lod.opentransportdata.swiss/didok/8500213
+RG;Reichenburg;2016-01-01;360;410.0;SBB;;47.1726951083, 8.98230203354;http://lod.opentransportdata.swiss/didok/8503223
+OF;Otelfingen;2016-01-01;1300;1500.0;SBB;;47.4549348839, 8.38750753521;http://lod.opentransportdata.swiss/didok/8503528
+RCK;Rheineck;2016-01-01;2000;2200.0;SBB;;47.4668881391, 9.59090422659;http://lod.opentransportdata.swiss/didok/8506313
+PR;Pratteln;2016-01-01;8100;9500.0;SBB;;47.522657608, 7.69080243836;http://lod.opentransportdata.swiss/didok/8500021
+OL;Olten;2016-01-01;72700;81300.0;SBB;;47.3519295325, 7.907688105;http://lod.opentransportdata.swiss/didok/8500218
+WCHO;Walchwil Hörndli;2016-01-01;50;50.0;SBB;;47.1084102503, 8.50502546872;http://lod.opentransportdata.swiss/didok/8517112
+WAB;Waldibrücke;2016-01-01;520;660.0;SBB;;47.1078933281, 8.31968694103;http://lod.opentransportdata.swiss/didok/8502017
+UNT;Unterterzen;2016-01-01;490;420.0;SBB;;47.1138559734, 9.25500777055;http://lod.opentransportdata.swiss/didok/8509416
+WF;Weinfelden;2016-01-01;14900;16900.0;SBB;;47.5662241626, 9.10634628137;http://lod.opentransportdata.swiss/didok/8506105
+TUE;Tüscherz;2016-01-01;120;120.0;SBB;;47.1149950289, 7.19730481483;http://lod.opentransportdata.swiss/didok/8504229
+WAU;Wauwil;2016-01-01;910;1100.0;SBB;;47.1838514118, 8.0190083583;http://lod.opentransportdata.swiss/didok/8502006
+UST;Uster;2016-01-01;24000;28000.0;SBB;;47.3503664551, 8.71868854805;http://lod.opentransportdata.swiss/didok/8503125
+TG;Turgi;2016-01-01;6200;7600.0;SBB;;47.4917545162, 8.25344123675;http://lod.opentransportdata.swiss/didok/8503503
+LUT;Luterbach-Attisholz;2016-01-01;550;610.0;SBB;;47.2171432544, 7.58351524915;http://lod.opentransportdata.swiss/didok/8500208
+LF;Läufelfingen;2016-01-01;420;490.0;SBB;;47.3921249769, 7.85621326784;http://lod.opentransportdata.swiss/didok/8500035
+LGB;Leuggelbach;2016-01-01;50;50.0;SBB;;46.9757415966, 9.04692465402;http://lod.opentransportdata.swiss/didok/8503235
+MAEG;Mägenwil;2016-01-01;820;1000.0;SBB;;47.4145021864, 8.23513921004;http://lod.opentransportdata.swiss/didok/8502106
+LFN;Laufen;2016-01-01;5600;6400.0;SBB;;47.4193383263, 7.50263030739;http://lod.opentransportdata.swiss/didok/8500113
+LUPF;Lupfig;2016-01-01;240;290.0;SBB;;47.4451758366, 8.21496733295;http://lod.opentransportdata.swiss/didok/8502237
+LZ;Luzern;2016-01-01;89200;96200.0;SBB;;47.0501697679, 8.31017092011;http://lod.opentransportdata.swiss/didok/8505000
+SBAD;Schinznach Bad;2016-01-01;530;600.0;SBB;;47.4517752695, 8.16692832223;http://lod.opentransportdata.swiss/didok/8502116
+SAS;Salez-Sennwald;2016-01-01;90;110.0;SBB;;47.2414442444, 9.50232064245;http://lod.opentransportdata.swiss/didok/8509402
+RU;Rupperswil;2016-01-01;2100;2500.0;SBB;;47.4032880043, 8.12694494762;http://lod.opentransportdata.swiss/didok/8502114
+RUEM;Rümlang;2016-01-01;3900;4500.0;SBB;;47.4540663116, 8.53274503651;http://lod.opentransportdata.swiss/didok/8503311
+RTR;Rothrist;2016-01-01;940;1200.0;SBB;;47.3064476644, 7.87938648836;http://lod.opentransportdata.swiss/didok/8508103
+RK;Rotkreuz;2016-01-01;12900;15300.0;SBB;;47.1417586665, 8.43047453438;http://lod.opentransportdata.swiss/didok/8502202
+SAL;Salgesch;2016-01-01;300;330.0;SBB;;46.3094470378, 7.57900756181;http://lod.opentransportdata.swiss/didok/8501600
+RS;Rorschach;2016-01-01;4900;5200.0;SBB;;47.4779984016, 9.50513168035;http://lod.opentransportdata.swiss/didok/8506311
+WWUE;Winterthur Wülflingen;2016-01-01;660;780.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.5064325739, 8.68090851224;http://lod.opentransportdata.swiss/didok/8506043
+WHE;Winterthur Hegi;2016-01-01;510;610.0;SBB;;47.5015644748, 8.76930571536;http://lod.opentransportdata.swiss/didok/8516218
+WI;Wildegg;2016-01-01;1400;1700.0;SBB;;47.4152733765, 8.16299733569;http://lod.opentransportdata.swiss/didok/8502115
+HM;Hüttlingen-Mettendorf;2016-01-01;170;190.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2016 eingeschränkt und somit ein Vergleich mit der Angabe 2014 nicht sinnvoll.;47.5823394904, 8.97453911285;http://lod.opentransportdata.swiss/didok/8506102
+ISL;Islikon;2016-01-01;910;1100.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2016 eingeschränkt und somit ein Vergleich mit der Angabe 2014 nicht sinnvoll.;47.5478354373, 8.84618065529;http://lod.opentransportdata.swiss/didok/8506019
+KURZ;Kurzrickenbach Seepark;2016-01-01;470;540.0;SBB;;47.6430854799, 9.19634957486;http://lod.opentransportdata.swiss/didok/8506119
+LTH;Langenthal;2016-01-01;11100;12800.0;SBB;;47.2173003777, 7.78470885276;http://lod.opentransportdata.swiss/didok/8508100
+KR;Kreuzlingen;2016-01-01;7900;8700.0;SBB;;47.6525540444, 9.16906514323;http://lod.opentransportdata.swiss/didok/8506131
+KPT;Kempraten;2016-01-01;800;930.0;SBB;;47.2383929337, 8.81429184846;http://lod.opentransportdata.swiss/didok/8503112
+IL;Illnau;2016-01-01;2000;2400.0;SBB;;47.4088192343, 8.72270382261;http://lod.opentransportdata.swiss/didok/8503303
+SEU;Seuzach;2016-01-01;1700;1900.0;SBB;Aus erhebungstechnischen Gründen sind sowohl die Aussagekraft der Angabe 2014 als auch diejenige der Angabe 2016 eingeschränkt und somit ein Vergleich der beiden Angaben nicht sinnvoll.;47.5357677342, 8.73886853866;http://lod.opentransportdata.swiss/didok/8506020
+RUEN;Rümikon AG;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.5653831658, 8.37365327646;http://lod.opentransportdata.swiss/didok/8503415
+SCHO;Schöfflisdorf-Oberweningen;2016-01-01;1200;1500.0;SBB;;47.4979704691, 8.41179388261;http://lod.opentransportdata.swiss/didok/8503317
+SCBU;Schübelbach-Buttikon;2016-01-01;220;250.0;SBB;;47.1763838553, 8.93876288214;http://lod.opentransportdata.swiss/didok/8503222
+SCOE;Schönenwerd SO;2016-01-01;1400;1700.0;SBB;;47.3714221617, 8.00015594913;http://lod.opentransportdata.swiss/didok/8502112
+SCME;Schmerikon;2016-01-01;1300;1500.0;SBB;;47.2251558732, 8.94336741805;http://lod.opentransportdata.swiss/didok/8503115
+SCHD;Schwanden;2016-01-01;1500;1700.0;SBB;;46.9968482066, 9.07744743355;http://lod.opentransportdata.swiss/didok/8503233
+SCHW;Schwyz;2016-01-01;2700;3000.0;SBB;;47.0263942922, 8.63213946703;http://lod.opentransportdata.swiss/didok/8505006
+STR;Stein am Rhein;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.656108874, 8.85500693112;http://lod.opentransportdata.swiss/didok/8506139
+SGF;St. Gallen St. Fiden;2016-01-01;2800;3300.0;SBB;;47.434542034, 9.39342737505;http://lod.opentransportdata.swiss/didok/8506303
+SMG;St. Margrethen;2016-01-01;2500;2800.0;SBB;;47.4532118157, 9.63825154068;http://lod.opentransportdata.swiss/didok/8506314
+TW;Thalwil;2016-01-01;17200;19600.0;SBB;;47.2959747213, 8.56475556229;http://lod.opentransportdata.swiss/didok/8503202
+TH;Thun;2016-01-01;32600;35900.0;SBB;;46.7548532939, 7.62959464395;http://lod.opentransportdata.swiss/didok/8507100
+ZGCA;Zug Casino;2016-01-01;150;180.0;SBB;;47.1623165875, 8.515186942;http://lod.opentransportdata.swiss/didok/8517527
+ZF;Zofingen;2016-01-01;8700;10100.0;SBB;;47.2880447598, 7.94309735295;http://lod.opentransportdata.swiss/didok/8502001
+ZG;Zug;2016-01-01;37500;43800.0;SBB;;47.1736230527, 8.51529569481;http://lod.opentransportdata.swiss/didok/8502204
+AW;Amriswil;2016-01-01;3000;3400.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2016 eingeschränkt und somit ein Vergleich mit der Angabe 2014 nicht sinnvoll.;47.5504471564, 9.30221759023;http://lod.opentransportdata.swiss/didok/8506109
+BD;Baden;2016-01-01;32700;37900.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2016 eingeschränkt und somit ein Vergleich mit der Angabe 2014 nicht sinnvoll.;47.476420225, 8.3076927631;http://lod.opentransportdata.swiss/didok/8503504
+ALT;Altstätten SG;2016-01-01;2300;2600.0;SBB;;47.3742291734, 9.55651096481;http://lod.opentransportdata.swiss/didok/8506319
+ALTD;Altendorf;2016-01-01;780;910.0;SBB;;47.193966384, 8.82288898291;http://lod.opentransportdata.swiss/didok/8503211
+AUSG;Au SG;2016-01-01;320;360.0;SBB;;47.4361134139, 9.64124454757;http://lod.opentransportdata.swiss/didok/8506316
+ARB;Arbon;2016-01-01;1500;1700.0;SBB;;47.5105854479, 9.43333858591;http://lod.opentransportdata.swiss/didok/8506308
+AL;Altdorf;2016-01-01;410;450.0;SBB;;46.8757407268, 8.63156572016;http://lod.opentransportdata.swiss/didok/8505113
+AU;Au ZH;2016-01-01;1000;1200.0;SBB;;47.2468165268, 8.6437080619;http://lod.opentransportdata.swiss/didok/8503205
+GKD;Gelterkinden;2016-01-01;4900;5500.0;SBB;;47.4658812396, 7.84765271265;http://lod.opentransportdata.swiss/didok/8500027
+GELF;Gelfingen;2016-01-01;340;370.0;SBB;;47.2135545697, 8.26480670843;http://lod.opentransportdata.swiss/didok/8502026
+BER;Berlingen;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.6732101292, 9.02200129854;http://lod.opentransportdata.swiss/didok/8506135
+BMA;Bauma;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.3688358029, 8.87821095251;http://lod.opentransportdata.swiss/didok/8503134
+BSSJ;Basel St. Johann;2016-01-01;130;160.0;SBB;;47.5702960042, 7.57251267012;http://lod.opentransportdata.swiss/didok/8500016
+BLGK;Baldegg Kloster;2016-01-01;490;660.0;SBB;;47.1806078267, 8.28057856573;http://lod.opentransportdata.swiss/didok/8516353
+BNZ;Benzenschwil;2016-01-01;200;240.0;SBB;;47.2468435811, 8.36559619501;http://lod.opentransportdata.swiss/didok/8502216
+BNK;Benken;2016-01-01;290;330.0;SBB;;47.2044563538, 9.00863107374;http://lod.opentransportdata.swiss/didok/8503118
+ERM;Ermatingen;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.6699950278, 9.08565476022;http://lod.opentransportdata.swiss/didok/8506133
+EZ;Eschenz;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.6454101495, 8.87653687685;http://lod.opentransportdata.swiss/didok/8506138
+DOT;Dottikon-Dintikon;2016-01-01;1400;1800.0;SBB;;47.3736425259, 8.23468774088;http://lod.opentransportdata.swiss/didok/8502212
+DOR;Dornach-Arlesheim;2016-01-01;4700;5500.0;SBB;;47.488608339, 7.61110691339;http://lod.opentransportdata.swiss/didok/8500118
+ERLB;Erlenbach ZH;2016-01-01;3600;4200.0;SBB;;47.3057853122, 8.59150489466;http://lod.opentransportdata.swiss/didok/8503102
+DUG;Duggingen;2016-01-01;550;630.0;SBB;;47.4534348999, 7.60344839068;http://lod.opentransportdata.swiss/didok/8500116
+ESL;Eschlikon;2016-01-01;1300;1500.0;SBB;;47.4614892248, 8.95851470682;http://lod.opentransportdata.swiss/didok/8506011
+DU;Dulliken;2016-01-01;340;400.0;SBB;;47.3542660407, 7.94648945968;http://lod.opentransportdata.swiss/didok/8502110
+EGL;Eglisau;2016-01-01;1600;1800.0;SBB;;47.5723728054, 8.51653513851;http://lod.opentransportdata.swiss/didok/8503402
+BUET;Bütschwil;2016-01-01;1200;1300.0;SBB;;47.3595914091, 9.07513534617;http://lod.opentransportdata.swiss/didok/8506203
+BDF;Burgdorf;2016-01-01;15600;17900.0;SBB;;47.0606957305, 7.62168894507;http://lod.opentransportdata.swiss/didok/8508005
+BONI;Boniswil;2016-01-01;300;340.0;SBB;;47.3150345145, 8.1845453245;http://lod.opentransportdata.swiss/didok/8502032
+BUB;Bubikon;2016-01-01;5200;6100.0;SBB;;47.2708395927, 8.82270102308;http://lod.opentransportdata.swiss/didok/8503122
+DIE;Diepflingen;2016-01-01;150;170.0;SBB;;47.4495555927, 7.8377022189;http://lod.opentransportdata.swiss/didok/8500031
+DTF;Dietfurt;2016-01-01;240;280.0;SBB;;47.3445497083, 9.07830029592;http://lod.opentransportdata.swiss/didok/8506202
+REUT;Reutlingen;2016-01-01;260;290.0;SBB;Aus erhebungstechnischen Gründen sind sowohl die Aussagekraft der Angabe 2014 als auch diejenige der Angabe 2016 eingeschränkt und somit ein Vergleich der beiden Angaben nicht sinnvoll.;47.5296543857, 8.75213281727;http://lod.opentransportdata.swiss/didok/8506036
+RIK;Rickenbach-Attikon;2016-01-01;1200;1400.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2016 eingeschränkt und somit ein Vergleich mit der Angabe 2014 nicht sinnvoll.;47.5353542711, 8.7891594117;http://lod.opentransportdata.swiss/didok/8506018
+REG;Regensdorf-Watt;2016-01-01;7000;8100.0;SBB;;47.4365626396, 8.47206501622;http://lod.opentransportdata.swiss/didok/8503526
+PF;Pfäffikon SZ;2016-01-01;14300;16200.0;SBB;;47.2029974467, 8.77811068503;http://lod.opentransportdata.swiss/didok/8503209
+RI;Richterswil;2016-01-01;4600;5200.0;SBB;;47.2083677131, 8.70746042267;http://lod.opentransportdata.swiss/didok/8503207
+RF;Rheinfelden;2016-01-01;8600;9800.0;SBB;;47.5512096146, 7.79215393064;http://lod.opentransportdata.swiss/didok/8500301
+OP;Opfikon;2016-01-01;2400;2900.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.4299514492, 8.56176987445;http://lod.opentransportdata.swiss/didok/8503340
+NOU;Nieder- und Oberurnen;2016-01-01;390;440.0;SBB;;47.122362606, 9.0623744371;http://lod.opentransportdata.swiss/didok/8503226
+NID;Nidfurn-Haslen;2016-01-01;160;170.0;SBB;;46.9858964537, 9.05925879887;http://lod.opentransportdata.swiss/didok/8503234
+ORD;Oberrieden;2016-01-01;1200;1400.0;SBB;;47.2796754088, 8.57844974795;http://lod.opentransportdata.swiss/didok/8503203
+NG;Niederglatt;2016-01-01;1300;1500.0;SBB;;47.4874689477, 8.50329612568;http://lod.opentransportdata.swiss/didok/8503313
+ORT;Oberriet;2016-01-01;410;480.0;SBB;;47.3234789515, 9.57136707107;http://lod.opentransportdata.swiss/didok/8509400
+OSS;Ossingen;2016-01-01;450;530.0;SBB;;47.6146106042, 8.72409330368;http://lod.opentransportdata.swiss/didok/8506023
+SKY;Sennhof-Kyburg;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.4651737084, 8.76033034905;http://lod.opentransportdata.swiss/didok/8506003
+SCHL;Schlieren;2016-01-01;11000;13000.0;SBB;;47.3991743125, 8.44722881452;http://lod.opentransportdata.swiss/didok/8503509
+SCHT;Schlatt;2016-01-01;280;320.0;SBB;;47.6795011585, 8.68749675648;http://lod.opentransportdata.swiss/didok/8503427
+SINS;Sins;2016-01-01;1100;1300.0;SBB;;47.188308281, 8.39780794584;http://lod.opentransportdata.swiss/didok/8502218
+UER;Uerikon;2016-01-01;1900;2200.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.2358565197, 8.75261073401;http://lod.opentransportdata.swiss/didok/8503108
+TAEG;Tägerwilen-Gottlieben;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.6596173652, 9.13295927882;http://lod.opentransportdata.swiss/didok/8506132
+TUR;Turtmann;2016-01-01;290;330.0;SBB;;46.3093240882, 7.69960071796;http://lod.opentransportdata.swiss/didok/8501602
+TRI;Trimbach;2016-01-01;80;90.0;SBB;;47.3660466339, 7.90427743742;http://lod.opentransportdata.swiss/didok/8500037
+UET;Uetikon;2016-01-01;4500;5400.0;SBB;;47.2590294057, 8.678774746;http://lod.opentransportdata.swiss/didok/8503105
+UZ;Uznach;2016-01-01;7500;8500.0;SBB;;47.2242754695, 8.98067539571;http://lod.opentransportdata.swiss/didok/8503116
+SOAD;Solothurn Allmend;2016-01-01;400;460.0;SBB;;47.2088750961, 7.52142884826;http://lod.opentransportdata.swiss/didok/8518963
+STS;Stein-Säckingen;2016-01-01;3100;3800.0;SBB;;47.5415967349, 7.94882272396;http://lod.opentransportdata.swiss/didok/8500320
+STMR;Steinmaur;2016-01-01;1100;1300.0;SBB;;47.4899801946, 8.4468407224;http://lod.opentransportdata.swiss/didok/8503316
+SOM;Sommerau;2016-01-01;50;50.0;SBB;;47.4390111569, 7.85146338126;http://lod.opentransportdata.swiss/didok/8500032
+STAE;Stäfa;2016-01-01;5400;6300.0;SBB;;47.2405237212, 8.72163122186;http://lod.opentransportdata.swiss/didok/8503107
+SS;Sursee;2016-01-01;12000;14000.0;SBB;;47.1707889132, 8.09787795205;http://lod.opentransportdata.swiss/didok/8502007
+STG;Steg;2016-01-01;210;210.0;SBB;;47.3538535176, 8.93235901657;http://lod.opentransportdata.swiss/didok/8503135
+ZHDB;Zürich Hardbrücke;2016-01-01;47100;56000.0;SBB;;47.3851946908, 8.51710646094;http://lod.opentransportdata.swiss/didok/8503020
+ZFH;Zürich Flughafen;2016-01-01;47200;48900.0;SBB;;47.4503820775, 8.56238666028;http://lod.opentransportdata.swiss/didok/8503016
+ZSEB;Zürich Seebach;2016-01-01;1400;1600.0;SBB;;47.4187469105, 8.54463614173;http://lod.opentransportdata.swiss/didok/8503007
+KMUE;Zug Chollermüli;2016-01-01;630;700.0;SBB;;47.1804713352, 8.48576089261;http://lod.opentransportdata.swiss/didok/8502230
+ZGSE;Zug Schutzengel;2016-01-01;1200;1300.0;SBB;;47.1737252745, 8.50722421468;http://lod.opentransportdata.swiss/didok/8516187
+ZGPP;Zug Postplatz;2016-01-01;140;160.0;SBB;;47.168273486, 8.51691604796;http://lod.opentransportdata.swiss/didok/8502300
+ZEN;Zürich Enge;2016-01-01;14900;18600.0;SBB;;47.3640983597, 8.53080595476;http://lod.opentransportdata.swiss/didok/8503010
+AD;Aadorf;2016-01-01;1700;2000.0;SBB;;47.4881178542, 8.90328450849;http://lod.opentransportdata.swiss/didok/8506013
+DUE;Dübendorf;2016-01-01;8000;9500.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.4000750283, 8.62340719058;http://lod.opentransportdata.swiss/didok/8503128
+EGN;Egnach;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.5439914495, 9.38300007743;http://lod.opentransportdata.swiss/didok/8506309
+DSB;Diesbach-Betschwanden;2016-01-01;120;140.0;SBB;;46.9461769693, 9.02436242331;http://lod.opentransportdata.swiss/didok/8503237
+DTL;Dietlikon;2016-01-01;8100;9500.0;SBB;;47.4201947418, 8.61925589067;http://lod.opentransportdata.swiss/didok/8503306
+ARN;Arnegg;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.4420020412, 9.25200601938;http://lod.opentransportdata.swiss/didok/8506211
+ARBS;Arbon Seemoosriet;2016-01-01;410;460.0;SBB;;47.5215190263, 9.42429272006;http://lod.opentransportdata.swiss/didok/8516270
+BSDH;Basel Dreispitz;2016-01-01;1700;2000.0;SBB;;47.5378619945, 7.60894180152;http://lod.opentransportdata.swiss/didok/8500136
+BAAL;Baar Lindenpark;2016-01-01;1200;1500.0;SBB;;47.1831330124, 8.5170440227;http://lod.opentransportdata.swiss/didok/8515993
+AN;Andelfingen;2016-01-01;2300;2600.0;SBB;;47.5937589886, 8.67797953564;http://lod.opentransportdata.swiss/didok/8506047
+BAZ;Bazenheid;2016-01-01;990;1200.0;SBB;;47.4101281088, 9.06904195327;http://lod.opentransportdata.swiss/didok/8506205
+BLL;Ballwil;2016-01-01;630;710.0;SBB;;47.1537643847, 8.31688138659;http://lod.opentransportdata.swiss/didok/8502023
+AE;Aesch;2016-01-01;1900;2200.0;SBB;;47.4677359724, 7.60305476436;http://lod.opentransportdata.swiss/didok/8500117
+BAE;Bäch;2016-01-01;490;560.0;SBB;;47.2009791623, 8.72716324608;http://lod.opentransportdata.swiss/didok/8503208
+ERL;Erlen;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.5514562601, 9.22619100908;http://lod.opentransportdata.swiss/didok/8506107
+FRE;Frenkendorf-Füllinsdorf;2016-01-01;3700;4300.0;SBB;;47.501457047, 7.71909156777;http://lod.opentransportdata.swiss/didok/8500022
+FRB;Freienbach SBB;2016-01-01;440;510.0;SBB;;47.2073074882, 8.75619939808;http://lod.opentransportdata.swiss/didok/8503210
+ESEE;Ermensee;2016-01-01;120;130.0;SBB;;47.2296890898, 8.24230319429;http://lod.opentransportdata.swiss/didok/8502019
+ER;Erstfeld;2016-01-01;870;880.0;SBB;;46.8203404742, 8.6504428878;http://lod.opentransportdata.swiss/didok/8505114
+EDA;Ennenda;2016-01-01;550;610.0;SBB;;47.0329570685, 9.07718226126;http://lod.opentransportdata.swiss/didok/8503231
+FCK;Frick;2016-01-01;4900;5700.0;SBB;;47.5073437467, 8.01307225263;http://lod.opentransportdata.swiss/didok/8500305
+FMS;Flums;2016-01-01;530;590.0;SBB;;47.0966128468, 9.34791662857;http://lod.opentransportdata.swiss/didok/8509413
+EL;Elgg;2016-01-01;1600;1900.0;SBB;;47.4985287524, 8.86339187202;http://lod.opentransportdata.swiss/didok/8506014
+BON;Bonstetten-Wettswil;2016-01-01;3600;4200.0;SBB;;47.3258957392, 8.46817514105;http://lod.opentransportdata.swiss/didok/8502222
+BOT;Bottighofen;2016-01-01;240;270.0;SBB;;47.6407078714, 9.21308178053;http://lod.opentransportdata.swiss/didok/8506127
+BUC;Buckten;2016-01-01;170;180.0;SBB;;47.4089834328, 7.84778618088;http://lod.opentransportdata.swiss/didok/8500034
+BIRR;Birr;2016-01-01;560;720.0;SBB;;47.4358394568, 8.21765486787;http://lod.opentransportdata.swiss/didok/8502247
+GA;Gampel-Steg;2016-01-01;540;640.0;SBB;;46.3065139347, 7.74757569359;http://lod.opentransportdata.swiss/didok/8501603
+GLB;Glattbrugg;2016-01-01;5900;7300.0;SBB;;47.4308254769, 8.55883224276;http://lod.opentransportdata.swiss/didok/8503310
+GOL;Goldach;2016-01-01;1400;1500.0;SBB;;47.4737971116, 9.46699032646;http://lod.opentransportdata.swiss/didok/8506305
+GL;Glarus;2016-01-01;2500;2900.0;SBB;;47.0399200317, 9.0715516467;http://lod.opentransportdata.swiss/didok/8503230
+WIL;Wil;2016-01-01;20200;22900.0;SBB;Inklusive FW.;47.4624092373, 9.04098327921;http://lod.opentransportdata.swiss/didok/8506206
+WAA;Wangen an der Aare;2016-01-01;700;730.0;SBB;;47.2319515056, 7.6562236042;http://lod.opentransportdata.swiss/didok/8500210
+WAE;Wädenswil;2016-01-01;16600;18900.0;SBB;;47.2293011038, 8.67519275897;http://lod.opentransportdata.swiss/didok/8503206
+WY;Wynigen;2016-01-01;870;1000.0;SBB;;47.1051648822, 7.66349632611;http://lod.opentransportdata.swiss/didok/8508006
+VI;Visp;2016-01-01;20700;20400.0;SBB;;46.2940248591, 7.88145816487;http://lod.opentransportdata.swiss/didok/8501605
+KAAG;Kaiserstuhl AG;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.5664464571, 8.41914841526;http://lod.opentransportdata.swiss/didok/8503413
+KKO;Kölliken Oberdorf;2016-01-01;190;220.0;SBB;;47.3246738705, 8.01907059825;http://lod.opentransportdata.swiss/didok/8502122
+KUE;Küssnacht am Rigi;2016-01-01;2200;2400.0;SBB;;47.0835940036, 8.4334940573;http://lod.opentransportdata.swiss/didok/8505002
+KBD;Koblenz Dorf;2016-01-01;410;480.0;SBB;;47.6093835703, 8.24013823513;http://lod.opentransportdata.swiss/didok/8503411
+KB;Koblenz;2016-01-01;2900;3400.0;SBB;;47.6003354815, 8.22702315842;http://lod.opentransportdata.swiss/didok/8500329
+HUEW;Hüntwangen-Wil;2016-01-01;1500;1800.0;SBB;;47.5812668467, 8.51282074899;http://lod.opentransportdata.swiss/didok/8503403
+HB;Herzogenbuchsee;2016-01-01;3600;4100.0;SBB;;47.1880813308, 7.70094642682;http://lod.opentransportdata.swiss/didok/8508008
+HAE;Hägendorf;2016-01-01;1500;1800.0;SBB;;47.3302605109, 7.84380971731;http://lod.opentransportdata.swiss/didok/8500215
+GOE;Göschenen;2016-01-01;2000;1900.0;SBB;;46.6658163572, 8.58879659143;http://lod.opentransportdata.swiss/didok/8505119
+IT;Itingen;2016-01-01;930;1100.0;SBB;;47.4672660009, 7.78720690694;http://lod.opentransportdata.swiss/didok/8500025
+HD;Hallwil;2016-01-01;170;200.0;SBB;;47.3286359778, 8.17593763411;http://lod.opentransportdata.swiss/didok/8502031
+HN;Horn;2016-01-01;490;540.0;SBB;;47.493176824, 9.46337580999;http://lod.opentransportdata.swiss/didok/8506307
+JO;Jona;2016-01-01;4700;5400.0;SBB;;47.230969801, 8.8345980429;http://lod.opentransportdata.swiss/didok/8503120
+LA;Lachen;2016-01-01;3000;3500.0;SBB;;47.190068574, 8.85269238166;http://lod.opentransportdata.swiss/didok/8503220
+LK;Leuk;2016-01-01;2000;2200.0;SBB;;46.3118851335, 7.64394777254;http://lod.opentransportdata.swiss/didok/8501601
+MAER;Märstetten;2016-01-01;380;440.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2016 eingeschränkt und somit ein Vergleich mit der Angabe 2014 nicht sinnvoll.;47.5828184065, 9.0621817582;http://lod.opentransportdata.swiss/didok/8506104
+MAEN;Männedorf;2016-01-01;4900;5700.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.2534223208, 8.69233239506;http://lod.opentransportdata.swiss/didok/8503106
+LZVH;Luzern Verkehrshaus;2016-01-01;560;590.0;SBB;;47.053927868, 8.33728023957;http://lod.opentransportdata.swiss/didok/8517336
+MEGZ;Meggen Zentrum;2016-01-01;370;400.0;SBB;;47.0450427897, 8.37412430654;http://lod.opentransportdata.swiss/didok/8505018
+MTL;Marthalen;2016-01-01;1700;1900.0;SBB;;47.6310755053, 8.65609788009;http://lod.opentransportdata.swiss/didok/8506048
+LIG;Ligerz;2016-01-01;410;420.0;SBB;;47.0837604425, 7.13514479553;http://lod.opentransportdata.swiss/didok/8504227
+NAEN;Nänikon-Greifensee;2016-01-01;4700;5600.0;SBB;Aus erhebungstechnischen Gründen ist die Aussagekraft der Angabe 2014 eingeschränkt und somit ein Vergleich mit der Angabe 2016 nicht sinnvoll.;47.3693584945, 8.68639971514;http://lod.opentransportdata.swiss/didok/8503126
+MELH;Mellingen Heitersberg;2016-01-01;2500;3200.0;SBB;;47.4280718007, 8.27633859072;http://lod.opentransportdata.swiss/didok/8516219
+MGT;Murgenthal;2016-01-01;500;590.0;SBB;;47.2653781303, 7.83209989652;http://lod.opentransportdata.swiss/didok/8508102
+MPF;Mumpf;2016-01-01;1000;1200.0;SBB;;47.5476175889, 7.90961301385;http://lod.opentransportdata.swiss/didok/8500303
+MELS;Mels;2016-01-01;280;330.0;SBB;;47.053743904, 9.41774577748;http://lod.opentransportdata.swiss/didok/8509412
+SD;Saland;2016-01-01;;;SBB;Aus erhebungstechnischen Gründen steht die Angabe 2016 nicht zur Verfügung.;47.3942126094, 8.85420315671;http://lod.opentransportdata.swiss/didok/8506009
+DIH;Dinhard;2016-01-01;190;210.0;SBB;;47.5533468989, 8.75295793686;http://lod.opentransportdata.swiss/didok/8506021
+CH;Chur;2016-01-01;23500;24000.0;SBB;;46.8530797552, 9.52892561961;http://lod.opentransportdata.swiss/didok/8509000
+GSS;Gossau SG;2016-01-01;10200;11100.0;SBB;;47.4118296551, 9.25303263655;http://lod.opentransportdata.swiss/didok/8506210
+GIB;Gibswil;2016-01-01;250;270.0;SBB;;47.3137146634, 8.9154940778;http://lod.opentransportdata.swiss/didok/8503137
+RBGD;Rothenburg Dorf;2016-01-01;1400;1500.0;SBB;;47.0909062076, 8.27317678808;http://lod.opentransportdata.swiss/didok/8502012
+RBG;Rothenburg;2016-01-01;1100;1300.0;SBB;;47.0881904457, 8.24917741374;http://lod.opentransportdata.swiss/didok/8502020
+RLG;Rümlingen;2016-01-01;90;110.0;SBB;;47.4253702718, 7.85052282001;http://lod.opentransportdata.swiss/didok/8500033
+RIET;Rietheim;2016-01-01;220;260.0;SBB;;47.6007474568, 8.27730806919;http://lod.opentransportdata.swiss/didok/8503410
