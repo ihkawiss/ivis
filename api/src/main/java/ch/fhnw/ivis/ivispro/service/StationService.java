@@ -31,10 +31,12 @@ public class StationService {
 		log.info("StationService initialized, loading frequency data.");
 
 		try {
+			long startTime = System.currentTimeMillis();
 			URL url = getClass().getClassLoader().getResource(FREQUENCY_FILE);
 			FileReader reader = new FileReader(new File(url.getFile()));
 			stations = new CsvToBeanBuilder<Station>(reader).withSeparator(';').withType(Station.class).build().parse();
-			log.info("loaded {} stations from {}", stations.size(), FREQUENCY_FILE);
+			long elapsedTime = System.currentTimeMillis() - startTime;
+			log.info("loaded {} stations in {}ms from {}", stations.size(), elapsedTime, FREQUENCY_FILE);
 		} catch (IllegalStateException | FileNotFoundException e) {
 			log.error("unable to initialize station service", e);
 			throw new RuntimeException(e); // re-throw

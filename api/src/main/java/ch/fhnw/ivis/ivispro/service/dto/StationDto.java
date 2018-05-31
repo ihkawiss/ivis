@@ -5,16 +5,20 @@ import java.util.List;
 
 import ch.fhnw.ivis.ivispro.domain.Station;
 
-public class StationDto {
+public class StationDto implements Comparable<StationDto> {
 
 	private String name;
 	private String color;
 	private float dimension;
+	private float frequency;
+	private float workFrequency;
 
 	private GeoLocationDto location;
 
 	public StationDto(Station station) {
 		this.name = station.getName();
+		this.frequency = station.getWeekFrequency();
+		this.workFrequency = station.getWorkWeekFrequency();
 		this.location = new GeoLocationDto(station.getCoordinates());
 	}
 
@@ -50,12 +54,33 @@ public class StationDto {
 		this.location = location;
 	}
 
+	public float getFrequency() {
+		return frequency;
+	}
+
+	public void setFrequency(float frequency) {
+		this.frequency = frequency;
+	}
+
+	public float getWorkFrequency() {
+		return workFrequency;
+	}
+
+	public void setWorkFrequency(float workFrequency) {
+		this.workFrequency = workFrequency;
+	}
+
 	public static List<StationDto> fromList(List<Station> list) {
 		List<StationDto> dtoList = new ArrayList<>();
 		for (Station station : list) {
 			dtoList.add(new StationDto(station));
 		}
 		return dtoList;
+	}
+
+	@Override
+	public int compareTo(StationDto o) {
+		return Float.compare(frequency, o.getFrequency());
 	}
 
 }
