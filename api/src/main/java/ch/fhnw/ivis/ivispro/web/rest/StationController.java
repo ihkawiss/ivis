@@ -22,7 +22,7 @@ public class StationController {
 
 	@GetMapping
 	public ResponseEntity<List<StationDto>> getAllStations(@RequestParam(required = false) String subset) {
-		List<StationDto> allStations = stationService.getAllStations(0, 20);
+		List<StationDto> allStations = stationService.getAllStations(0, 400);
 		return new ResponseEntity<>(allStations, HttpStatus.OK);
 	}
 

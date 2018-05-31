@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.net.URL;
-import java.time.LocalDate;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -114,7 +113,7 @@ public class StationService {
 		int green = (int) (255f - red);
 		int blue = (int) (4f - 4 * valueRatio);
 
-		return String.format("%d %d %d", red, green, blue);
+		return String.format("#%02x%02x%02x", red, green, blue);
 	}
 
 }
