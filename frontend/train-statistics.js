@@ -13,9 +13,10 @@ $(document).ready(() => {
         min: 0,
         max: 100,
         step: 10,
+        orientation: 'vertical',
         values: [ 0, 100 ],
         slide: function( event, ui ) {
-            $( '#amount' ).val( '' + ui.values[ 0 ] + ' - ' + ui.values[ 1 ] );
+            $("#slider-description-value").text(ui.values[0] + '% - ' + ui.values[1] + '%');
             updateMap('http://localhost:8080/api/station?'
                  + 'frequencyFrom=' + ui.values[ 0 ]
                  + '&frequencyTo=' + ui.values[ 1 ]);
