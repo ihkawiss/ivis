@@ -1,46 +1,56 @@
-var map = L.map('map').setView([46.799558, 8.235897], 8);
+var API_BASE_URL = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}';
+var SWISS_CENTER = [46.799558, 8.235897];
 
-L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-    attribution: 'ivisPro FS 18 Kevin Kirn und Ken Iseli',
-    maxZoom: 18,
-    id: 'mapbox.dark',
-    accessToken: 'pk.eyJ1IjoiaWhrYXdpc3MiLCJhIjoiY2podWpyZ2VwMGw0ajNycWt3MGJldHhyOCJ9.q7dldOVKrTRX7Yxo4mlLtw'
-}).addTo(map);
+$(document).ready(() => {
+    $("#map").css('height', $(document).height());
+    initializeMap();
+});
 
-$.ajax({
-    type: 'GET',
-    async: true,
-    url: "http://localhost:8080/api/station",
-    contentType: "application/json; charset=utf-8",
-    success(response) {
-        var markers = L.markerClusterGroup({
-            showCoverageOnHover: false,
-            iconCreateFunction: function(cluster) {
-                let delays = getDelayRatioForCluster(cluster);
-                let colorClass = getDelayColorClass(delays);
+function initializeMap() {
+    var map = L.map('map').setView(SWISS_CENTER, 8);
 
-                return L.divIcon({ html: '<span>' + delays + '%</span>', className: 'clusterIcon ' + colorClass });
-            }
-        });
-        response.forEach(element => {
-            markers.addLayer(
-                L.circle([element.location.longitude, element.location.latitude], {
-                    color: getDelayColor(element.delayRatio),
-                    fillColor: getDelayColor(element.delayRatio),
-                    fillOpacity: 0.5,
-                    opacity: 0.8,
-                    radius: 500,
-                    delayRatio: element.delayRatio
-                }).on('click', (event) => showDetailView(event, element))
-            );
-        });
+    L.tileLayer(API_BASE_URL, {
+        attribution: 'ivisPro FS 18 Kevin Kirn und Ken Iseli',
+        maxZoom: 18,
+        id: 'mapbox.dark',
+        accessToken: 'pk.eyJ1IjoiaWhrYXdpc3MiLCJhIjoiY2podWpyZ2VwMGw0ajNycWt3MGJldHhyOCJ9.q7dldOVKrTRX7Yxo4mlLtw'
+    }).addTo(map);
 
-        map.addLayer(markers);
-    },
-    error(response) {
-        alert("Während dem Laden der Daten ist ein Fehler aufgetreten!");
-    }
-})
+    $.ajax({
+        type: 'GET',
+        async: true,
+        url: "http://localhost:8080/api/station",
+        contentType: "application/json; charset=utf-8",
+        success(response) {
+            var markers = L.markerClusterGroup({
+                showCoverageOnHover: false,
+                iconCreateFunction: function(cluster) {
+                    let delays = getDelayRatioForCluster(cluster);
+                    let colorClass = getDelayColorClass(delays);
+
+                    return L.divIcon({ html: '<span>' + delays + '%</span>', className: 'clusterIcon ' + colorClass });
+                }
+            });
+            response.forEach(element => {
+                markers.addLayer(
+                    L.circle([element.location.longitude, element.location.latitude], {
+                        color: getDelayColor(element.delayRatio),
+                        fillColor: getDelayColor(element.delayRatio),
+                        fillOpacity: 0.5,
+                        opacity: 0.8,
+                        radius: 500,
+                        delayRatio: element.delayRatio
+                    }).on('click', (event) => showDetailView(event, element))
+                );
+            });
+
+            map.addLayer(markers);
+        },
+        error(response) {
+            alert("Während dem Laden der Daten ist ein Fehler aufgetreten!");
+        }
+    })
+}
 
 /**
  * Calculates the number of delayed trains in the cluster.
