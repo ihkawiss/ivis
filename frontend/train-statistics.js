@@ -199,7 +199,7 @@ function showDetailView(event, element){
  * @param {text} text 
  */
 function p (text) {
-    return '<p>' + text + '<p>';
+    return '<span class="padded">' + text + '<span>';
 }
 
 function drawDelayDonutChart(onTime, delayed, target) {
@@ -227,7 +227,10 @@ function drawAmountOfDelaysChart(data, target) {
     for (let i = 0; i < data.length; i++) {
         columns.push([data[i].minutesDelay + ' minutes', data[i].occurrencesOfDelay]);
     }
-    console.log(columns);
+    let title = 'Details to delays';
+    if (columns.length === 0) {
+        title = 'There are no delays';
+    }
     let chart = c3.generate({
         data: {
             columns: columns,
@@ -237,7 +240,7 @@ function drawAmountOfDelaysChart(data, target) {
             onmouseout: function (d, i) { /*console.log("onmouseout", d, i);*/ }
         },
         donut: {
-            title: "On time vs delay"
+            title: title
         }
     });
 

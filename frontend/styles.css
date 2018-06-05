@@ -122,3 +122,15 @@ h2 {
   .c3-legend-item, .c3-chart-arcs-title {
     fill: #cccccc;
  }
+
+ #delay-amounts-donut {
+   max-height: 320px;
+   margin-top: 250px;
+   margin-left: 70%;
+   
+ }
+
+ .padded {
+   padding-left: 6vw;
+   padding-right: 6vw;
+ }
