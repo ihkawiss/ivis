@@ -11,15 +11,25 @@
     <link rel="stylesheet" href="lib/leaflet.label.css">
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
 <body>
     <div id="map"></div>
-    <div id="slider-range"></div>
-    <div id="slider-description" class="ui-corner-all ui-widget-header">
+    
+    <div id="introduction">
+        <h1>ivis Pro</h1>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
+        <h2>Station frequency</h2>
+        <p id="slider-description-value">0% - 100%</p>
+        <div id="slider-range"></div>
+    </div>
+
+    
+    <!--<div id="slider-description" class="ui-corner-all ui-widget-header">
         Stations with frequency between
         <span id="slider-description-value">0% - 100%</span>
-    </div>
+    </div>-->
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>

@@ -5,7 +5,7 @@ var map = undefined;
 var markers = undefined;
 
 $(document).ready(() => {
-    $('#map').css('height', $(document).height());
+    $('#map, #introduction').css('height', $(document).height());
     initializeMap('http://localhost:8080/api/station');
 
     $( '#slider-range' ).slider({
@@ -13,7 +13,7 @@ $(document).ready(() => {
         min: 0,
         max: 100,
         step: 10,
-        orientation: 'vertical',
+        orientation: 'horizantal',
         values: [ 0, 100 ],
         slide: function( event, ui ) {
             $("#slider-description-value").text(ui.values[0] + '% - ' + ui.values[1] + '%');

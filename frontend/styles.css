@@ -4,7 +4,26 @@ body {
 }
 
 #map { 
-    width: 100%;
+  width: 70%;
+  float: left;
+}
+
+#introduction {
+  padding: 0px 30px 0px 30px;
+  width: calc(30% - 60px);
+  float: right;
+}
+
+#introduction h1, h2, p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 25px;
+}
+
+h2 {
+  font-size: 20px;
 }
 
 .clusterIcon {
@@ -76,6 +95,21 @@ body {
   }
 
   #slider-range {
+    max-width: calc(100% - 30px);
+    margin-left: 10px;
+  }
+
+  #slider-range span {
+    outline: none;
+  }
+
+  #slider-range span.ui-state-active{
+    background: black;
+    border-color: black;
+    outline: none;
+  }
+
+/*#slider-range {
     position: absolute;
     top: 25vh;
     height: 50vh;
@@ -83,7 +117,7 @@ body {
     z-index: 1000;
   }
   
-  #slider-description {
+#slider-description {
     position: absolute;
     top: 50vh;
     left: -150px;
@@ -96,4 +130,4 @@ body {
     border: 1px solid rgb(0, 127, 255);
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     transform: rotate(270deg);
-  }
+  }*/
