@@ -88,7 +88,7 @@ function getNewData(targetUrl) {
                 } else if(!showGood && element.delayRatio <= 10){ // ok
                     return;
                 }
-                console.log(element);
+                
                 markers.addLayer(
                     L.circle([element.location.longitude, element.location.latitude], {
                         color: getDelayColor(element.delayRatio),
