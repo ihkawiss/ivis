@@ -5,11 +5,13 @@ var map = undefined;
 var markers = undefined;
 
 $(document).ready(() => {
-    $('#map, #introduction').css('height', $(document).height());
+    adaptContainerSizes();
     initializeMap('http://localhost:8080/api/station');
 
-    $( '#slider-range' ).slider({
-        range: true,
+    $(window).resize(() => adaptContainerSizes());
+
+    $('#slider-range').slider({
+        range: true,    
         min: 0,
         max: 100,
         step: 10,
@@ -23,6 +25,10 @@ $(document).ready(() => {
         }
     });
 });
+
+function adaptContainerSizes() {
+    $('#map, #introduction').css('height', $(document).height());
+}
 
 function updateMap(targetUrl) {
     try {
@@ -63,6 +69,7 @@ function getNewData(targetUrl) {
                     return L.divIcon({ html: '<span>' + delays + '%</span>', className: 'clusterIcon ' + colorClass });
                 }
             });
+
             response.forEach(element => {
                 markers.addLayer(
                     L.circle([element.location.longitude, element.location.latitude], {
@@ -149,7 +156,7 @@ function showDetailView(event, element){
     container.append(statisticParagraphs);
 
     // add donut chart for delay metric
-    let donutContainer = $('<div>', {class: 'donut'});
+    let donutContainer = $('<div>', {id: 'donut'});
     container.append(donutContainer);
 
     $('#map').append(container);
@@ -158,6 +165,7 @@ function showDetailView(event, element){
     container.animate({width: '100%', opacity: 1, zIndex: 1100}, 500, () => {
         title.animate({opacity: 1}, 500);
         statisticParagraphs.animate({opacity: 1}, 500);
+        drawDelayDonutChart(element.totalTrains, element.trainsOnTime, donutContainer);
     });
     
 }
@@ -169,4 +177,24 @@ function showDetailView(event, element){
  */
 function p (text) {
     return '<p>' + text + '<p>';
+}
+
+function drawDelayDonutChart(onTime, delayed, target) {
+    let chart = c3.generate({
+        data: {
+            columns: [
+                ['On Time (' + onTime + ')', onTime],
+                ['Delayed (' + delayed + ')', delayed],
+            ],
+            type : 'donut',
+            onclick: function (d, i) { console.log("onclick", d, i); },
+            onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+            onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+        },
+        donut: {
+            title: "Train Statistics"
+        }
+    });
+
+    target.append(chart.element);
 }

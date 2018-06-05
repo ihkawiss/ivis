@@ -26,6 +26,16 @@ h2 {
   font-size: 20px;
 }
 
+#donut{
+  width: 30%;
+  position: absolute;
+  margin-top: 250px;
+}
+
+.c3-chart-arcs-title{
+  color: white;
+}
+
 .clusterIcon {
     width: 40px !important;
     height: 30px !important;
