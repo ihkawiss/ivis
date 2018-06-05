@@ -157,8 +157,12 @@ function showDetailView(event, element){
     container.append(statisticParagraphs);
 
     // add donut chart for delay metric
-    let donutContainer = $('<div>', {id: 'donut'});
-    container.append(donutContainer);
+    let delayPercentageDonutContainer = $('<div>', {id: 'donut'});
+    container.append(delayPercentageDonutContainer);
+
+    // add donut chart for amount of different delay minutes metric
+    let delayAmountsDonutContainer = $('<div>', {id: 'delay-amounts-donut'});
+    container.append(delayAmountsDonutContainer);
 
     $('#map').append(container);
 
@@ -166,7 +170,8 @@ function showDetailView(event, element){
     container.animate({width: '100%', opacity: 1, zIndex: 1100}, 500, () => {
         title.animate({opacity: 1}, 500);
         statisticParagraphs.animate({opacity: 1}, 500);
-        drawDelayDonutChart(element.totalTrains, element.trainsOnTime, donutContainer);
+        drawDelayDonutChart(element.totalTrains, element.trainsOnTime, delayPercentageDonutContainer);
+        drawAmountOfDelaysChart(element.delays, delayAmountsDonutContainer);
     });
     
 }
@@ -188,12 +193,34 @@ function drawDelayDonutChart(onTime, delayed, target) {
                 ['Delayed (' + delayed + ')', delayed],
             ],
             type : 'donut',
-            onclick: function (d, i) { console.log("onclick", d, i); },
-            onmouseover: function (d, i) { console.log("onmouseover", d, i); },
-            onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+            onclick: function (d, i) { /*console.log("onclick", d, i);*/ },
+            onmouseover: function (d, i) { /*console.log("onmouseover", d, i);*/ },
+            onmouseout: function (d, i) { /*console.log("onmouseout", d, i);*/ }
         },
         donut: {
-            title: "Train Statistics"
+            title: "On time vs delay"
+        }
+    });
+
+    target.append(chart.element);
+}
+function drawAmountOfDelaysChart(data, target) {
+    console.log(data);
+    var columns = [];
+    for (let i = 0; i < data.length; i++) {
+        columns.push([data[i].minutesDelay + ' minutes', data[i].occurrencesOfDelay]);
+    }
+    console.log(columns);
+    let chart = c3.generate({
+        data: {
+            columns: columns,
+            type : 'donut',
+            onclick: function (d, i) { /*console.log("onclick", d, i);*/ },
+            onmouseover: function (d, i) { /*console.log("onmouseover", d, i);*/ },
+            onmouseout: function (d, i) { /*console.log("onmouseout", d, i);*/ }
+        },
+        donut: {
+            title: "On time vs delay"
         }
     });
 

@@ -119,25 +119,6 @@ h2 {
     outline: none;
   }
 
-/*#slider-range {
-    position: absolute;
-    top: 25vh;
-    height: 50vh;
-    left: 60px;
-    z-index: 1000;
-  }
-  
-#slider-description {
-    position: absolute;
-    top: 50vh;
-    left: -150px;
-    width: 360px;
-    height: 25px;
-    vertical-align: middle;
-    line-height: 25px;
-    text-align: center;
-    z-index: 1000;
-    border: 1px solid rgb(0, 127, 255);
-    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-    transform: rotate(270deg);
-  }*/
+  .c3-legend-item, .c3-chart-arcs-title {
+    fill: #cccccc;
+ }
