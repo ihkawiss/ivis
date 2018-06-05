@@ -18,8 +18,8 @@ $(document).ready(() => {
         slide: function( event, ui ) {
             $("#slider-description-value").text(ui.values[0] + '% - ' + ui.values[1] + '%');
             updateMap('http://localhost:8080/api/station?'
-                 + 'frequencyFrom=' + ui.values[ 0 ]
-                 + '&frequencyTo=' + ui.values[ 1 ]);
+                 + 'frequencyFrom=' + ui.values[0]
+                 + '&frequencyTo=' + ui.values[1]);
         }
     });
 });
@@ -152,10 +152,10 @@ function showDetailView(event, element){
     let donutContainer = $('<div>', {class: 'donut'});
     container.append(donutContainer);
 
-    $('#map').html(container);
+    $('#map').append(container);
 
     // animation
-    container.animate({width: '100%', opacity: 1}, 500, () => {
+    container.animate({width: '100%', opacity: 1, zIndex: 2000}, 500, () => {
         title.animate({opacity: 1}, 500);
         statisticParagraphs.animate({opacity: 1}, 500);
     });
