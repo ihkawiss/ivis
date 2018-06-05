@@ -5,6 +5,7 @@ var map = undefined;
 var markers = undefined;
 
 $(document).ready(() => {
+    $("input").checkboxradio();
     adaptContainerSizes();
     initializeMap('http://localhost:8080/api/station');
 
