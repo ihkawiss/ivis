@@ -1,3 +1,4 @@
+var API_STATIONS_URL = 'http://localhost:8080/api/station';
 var API_BASE_URL = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}';
 var SWISS_CENTER = [46.799558, 8.235897];
 
@@ -7,7 +8,7 @@ var markers = undefined;
 $(document).ready(() => {
     $("input").checkboxradio();
     adaptContainerSizes();
-    initializeMap('http://localhost:8080/api/station');
+    initializeMap(API_STATIONS_URL);
 
     $(window).resize(() => adaptContainerSizes());
 
@@ -20,10 +21,14 @@ $(document).ready(() => {
         values: [ 0, 100 ],
         slide: function( event, ui ) {
             $("#slider-description-value").text(ui.values[0] + '% - ' + ui.values[1] + '%');
-            updateMap('http://localhost:8080/api/station?'
-                 + 'frequencyFrom=' + ui.values[0]
+            updateMap(API_STATIONS_URL
+                 + '?frequencyFrom=' + ui.values[0]
                  + '&frequencyTo=' + ui.values[1]);
         }
+    });
+
+    $("#show-good, #show-avg, #show-bad").on('click', function(e) {
+        updateMap(API_STATIONS_URL);
     });
 });
 
@@ -72,12 +77,25 @@ function getNewData(targetUrl) {
             });
 
             response.forEach(element => {
+                let showGood = $("#show-good").is(":checked");
+                let showAvg = $("#show-avg").is(":checked");
+                let showBad = $("#show-bad").is(":checked");
+                let hide = false;
+
+                if(!showAvg && element.delayRatio > 10 && element.delayRatio <= 30) {  // avg
+                    hide = true;
+                } else if(!showBad && element.delayRatio > 30) { // bad
+                    hide = true;
+                } else if(!showGood){ // ok
+                    hide = true;
+                }
+
                 markers.addLayer(
                     L.circle([element.location.longitude, element.location.latitude], {
                         color: getDelayColor(element.delayRatio),
                         fillColor: getDelayColor(element.delayRatio),
-                        fillOpacity: 0.5,
-                        opacity: 0.8,
+                        fillOpacity: hide ? 0.0 : 0.5,
+                        opacity: hide ? 0.0 : 0.8,
                         radius: 500,
                         delayRatio: element.delayRatio
                     }).on('click', (event) => showDetailView(event, element))
