@@ -80,22 +80,21 @@ function getNewData(targetUrl) {
                 let showGood = $("#show-good").is(":checked");
                 let showAvg = $("#show-avg").is(":checked");
                 let showBad = $("#show-bad").is(":checked");
-                let hide = false;
-
+                
                 if(!showAvg && element.delayRatio > 10 && element.delayRatio <= 30) {  // avg
-                    hide = true;
+                    return;
                 } else if(!showBad && element.delayRatio > 30) { // bad
-                    hide = true;
-                } else if(!showGood){ // ok
-                    hide = true;
+                    return;
+                } else if(!showGood && element.delayRatio <= 10){ // ok
+                    return;
                 }
-
+                console.log(element);
                 markers.addLayer(
                     L.circle([element.location.longitude, element.location.latitude], {
                         color: getDelayColor(element.delayRatio),
                         fillColor: getDelayColor(element.delayRatio),
-                        fillOpacity: hide ? 0.0 : 0.5,
-                        opacity: hide ? 0.0 : 0.8,
+                        fillOpacity: 0.5,
+                        opacity: 0.8,
                         radius: 500,
                         delayRatio: element.delayRatio
                     }).on('click', (event) => showDetailView(event, element))
