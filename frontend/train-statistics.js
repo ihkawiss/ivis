@@ -183,7 +183,7 @@ function showDetailView(event, element){
     container.animate({width: '100%', opacity: 1, zIndex: 1100}, 500, () => {
         title.animate({opacity: 1}, 500);
         statisticParagraphs.animate({opacity: 1}, 500);
-        drawDelayDonutChart(element.totalTrains, element.trainsOnTime, donutContainer);
+        drawDelayDonutChart(element.trainsOnTime, element.delayedTrains, donutContainer);
     });
     
 }
