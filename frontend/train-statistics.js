@@ -155,7 +155,7 @@ function showDetailView(event, element){
     $('#map').append(container);
 
     // animation
-    container.animate({width: '100%', opacity: 1, zIndex: 2000}, 500, () => {
+    container.animate({width: '100%', opacity: 1, zIndex: 1100}, 500, () => {
         title.animate({opacity: 1}, 500);
         statisticParagraphs.animate({opacity: 1}, 500);
     });
