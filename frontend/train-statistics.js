@@ -1,13 +1,41 @@
 var API_BASE_URL = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}';
 var SWISS_CENTER = [46.799558, 8.235897];
 
+var map = undefined;
+var markers = undefined;
+
 $(document).ready(() => {
-    $("#map").css('height', $(document).height());
-    initializeMap();
+    $('#map').css('height', $(document).height());
+    initializeMap('http://localhost:8080/api/station');
+
+    $( '#slider-range' ).slider({
+        range: true,
+        min: 0,
+        max: 100,
+        step: 10,
+        orientation: 'vertical',
+        values: [ 0, 100 ],
+        slide: function( event, ui ) {
+            $("#slider-description-value").text(ui.values[0] + '% - ' + ui.values[1] + '%');
+            updateMap('http://localhost:8080/api/station?'
+                 + 'frequencyFrom=' + ui.values[0]
+                 + '&frequencyTo=' + ui.values[1]);
+        }
+    });
 });
 
-function initializeMap() {
-    var map = L.map('map').setView(SWISS_CENTER, 8);
+function updateMap(targetUrl) {
+    try {
+        map.removeLayer(markers);
+        markers.clearLayers();
+    } catch(e) {
+    }
+    markers = undefined;
+    getNewData(targetUrl);
+};
+
+function initializeMap(targetUrl) {
+    map = L.map('map').setView(SWISS_CENTER, 8);
 
     L.tileLayer(API_BASE_URL, {
         attribution: 'ivisPro FS 18 Kevin Kirn und Ken Iseli',
@@ -16,13 +44,17 @@ function initializeMap() {
         accessToken: 'pk.eyJ1IjoiaWhrYXdpc3MiLCJhIjoiY2podWpyZ2VwMGw0ajNycWt3MGJldHhyOCJ9.q7dldOVKrTRX7Yxo4mlLtw'
     }).addTo(map);
 
+    getNewData(targetUrl);
+}
+
+function getNewData(targetUrl) {
     $.ajax({
         type: 'GET',
         async: true,
-        url: "http://localhost:8080/api/station",
-        contentType: "application/json; charset=utf-8",
+        url: targetUrl,
+        contentType: 'application/json; charset=utf-8',
         success(response) {
-            var markers = L.markerClusterGroup({
+            markers = L.markerClusterGroup({
                 showCoverageOnHover: false,
                 iconCreateFunction: function(cluster) {
                     let delays = getDelayRatioForCluster(cluster);
@@ -47,10 +79,10 @@ function initializeMap() {
             map.addLayer(markers);
         },
         error(response) {
-            alert("Während dem Laden der Daten ist ein Fehler aufgetreten!");
+            alert('Während dem Laden der Daten ist ein Fehler aufgetreten!');
         }
-    })
-}
+    });
+};
 
 /**
  * Calculates the number of delayed trains in the cluster.
@@ -95,35 +127,35 @@ function showDetailView(event, element){
     // remove previous installed container
     $('.detail-container').remove();
 
-    let container = $("<div>", {class: 'detail-container'});
+    let container = $('<div>', {class: 'detail-container'});
     
     // add close button
-    let close = $("<div>", {class: 'close'});
+    let close = $('<div>', {class: 'close'});
     container.append(close);
     close.on('click', () => {
         container.animate({width: '0%', opacity: 0}, 500);
     });
 
     // add title
-    let title = $("<span>", {class: 'title'});
+    let title = $('<span>', {class: 'title'});
     title.text(element.name);
     container.append(title);
 
     // add basic statistics
-    let statisticParagraphs = $("<div>", {class: 'statistics-paragraph'});
-    statisticParagraphs.append(p("Trains: " + element.totalTrains));
-    statisticParagraphs.append(p("On time: " + element.trainsOnTime));
-    statisticParagraphs.append(p("Delayed: " + element.delayedTrains));
+    let statisticParagraphs = $('<div>', {class: 'statistics-paragraph'});
+    statisticParagraphs.append(p('Trains: ' + element.totalTrains));
+    statisticParagraphs.append(p('On time: ' + element.trainsOnTime));
+    statisticParagraphs.append(p('Delayed: ' + element.delayedTrains));
     container.append(statisticParagraphs);
 
     // add donut chart for delay metric
-    let donutContainer = $("<div>", {class: 'donut'});
+    let donutContainer = $('<div>', {class: 'donut'});
     container.append(donutContainer);
 
-    $("#map").append(container);
+    $('#map').append(container);
 
     // animation
-    container.animate({width: '100%', opacity: 1}, 500, () => {
+    container.animate({width: '100%', opacity: 1, zIndex: 1100}, 500, () => {
         title.animate({opacity: 1}, 500);
         statisticParagraphs.animate({opacity: 1}, 500);
     });
@@ -136,5 +168,5 @@ function showDetailView(event, element){
  * @param {text} text 
  */
 function p (text) {
-    return "<p>" + text + "<p>";
+    return '<p>' + text + '<p>';
 }

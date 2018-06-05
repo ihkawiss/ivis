@@ -19,18 +19,20 @@ import ch.fhnw.ivis.ivispro.service.dto.StationDto;
 @RequestMapping("/api/station")
 public class StationController {
 
-	private final Logger log = LoggerFactory.getLogger(StationController.class);
+    private final Logger log = LoggerFactory.getLogger(StationController.class);
 
-	@Autowired
-	private StationService stationService;
+    @Autowired
+    private StationService stationService;
 
-	@GetMapping
-	public ResponseEntity<List<StationDto>> getAllStations(@RequestParam(required = false) String subset) {
-		long startTime = System.currentTimeMillis();
-		log.info("new request to get all station data");
-		List<StationDto> allStations = stationService.getAllStations();
-		log.info("served get all station data request within {}ms", System.currentTimeMillis() - startTime);
-		return new ResponseEntity<>(allStations, HttpStatus.OK);
-	}
+    @GetMapping
+    public ResponseEntity<List<StationDto>> getAllStations(@RequestParam(required = false) String subset,
+                                                           @RequestParam(required = false) String frequencyFrom,
+                                                           @RequestParam(required = false) String frequencyTo) {
+        long startTime = System.currentTimeMillis();
+        log.info("new request to get all station data");
+        List<StationDto> allStations = stationService.getAllStations(frequencyFrom, frequencyTo);
+        log.info("served get all station data request within {}ms", System.currentTimeMillis() - startTime);
+        return new ResponseEntity<>(allStations, HttpStatus.OK);
+    }
 
 }
