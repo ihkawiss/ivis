@@ -1,3 +1,9 @@
+//-----------------------------------------------------------//
+//  ivisPro FS 2018
+//  
+//  Kevin Kirn <kevin.kirn@students.fhwn.ch>
+//  Ken Iseli <ken.iseli@students.fhnw.ch>
+//-----------------------------------------------------------//
 var API_STATIONS_URL = 'http://localhost:8080/api/station';
 var API_BASE_URL = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}';
 var SWISS_CENTER = [46.799558, 8.235897];
@@ -6,12 +12,13 @@ var map = undefined;
 var markers = undefined;
 
 $(document).ready(() => {
-    $("input").checkboxradio();
     adaptContainerSizes();
-    initializeMap(API_STATIONS_URL);
-
     $(window).resize(() => adaptContainerSizes());
+    
+    $("input").checkboxradio();
+    initializeMap(API_STATIONS_URL); 
 
+    // filter by passenger frequency
     $('#slider-range').slider({
         range: true,    
         min: 0,
@@ -27,15 +34,24 @@ $(document).ready(() => {
         }
     });
 
+    // filter by delay event binding
     $("#show-good, #show-avg, #show-bad").on('click', function(e) {
         updateMap(API_STATIONS_URL);
     });
 });
 
+/**
+ * Adjusts container heights according window
+ */
 function adaptContainerSizes() {
     $('#map, #introduction').css('height', $(document).height());
 }
 
+/**
+ * Reloads data from API and redraws the map
+ * 
+ * @param {targetUrl} targetUrl to load data from
+ */
 function updateMap(targetUrl) {
     try {
         map.removeLayer(markers);
@@ -46,6 +62,11 @@ function updateMap(targetUrl) {
     getNewData(targetUrl);
 };
 
+/**
+ * Initializes the map with API data
+ * 
+ * @param {targetUrl} targetUrl to load data from
+ */
 function initializeMap(targetUrl) {
     map = L.map('map').setView(SWISS_CENTER, 8);
 
@@ -59,6 +80,11 @@ function initializeMap(targetUrl) {
     getNewData(targetUrl);
 }
 
+/**
+ * Acquires train station data from API
+ * 
+ * @param {targetUrl} targetUrl to load data from
+ */
 function getNewData(targetUrl) {
     $.ajax({
         type: 'GET',
@@ -148,6 +174,12 @@ function getDelayColor(delayRatio) {
     return colorClass;
 }
 
+/**
+ * Shows the details view of a train station.
+ * 
+ * @param {event} event 
+ * @param {element} element 
+ */
 function showDetailView(event, element){
     // remove previous installed container
     $('.detail-container').remove();
@@ -202,6 +234,13 @@ function p (text) {
     return '<span class="padded">' + text + '<span>';
 }
 
+/**
+ * Draws a donut chart within the detail page
+ * 
+ * @param {onTime} onTime 
+ * @param {delayed} delayed 
+ * @param {target} target 
+ */
 function drawDelayDonutChart(onTime, delayed, target) {
     let chart = c3.generate({
         data: {
@@ -221,8 +260,14 @@ function drawDelayDonutChart(onTime, delayed, target) {
 
     target.append(chart.element);
 }
+
+/**
+ * Draws a donut chart within the detail page
+ * 
+ * @param {data} data 
+ * @param {target} target 
+ */
 function drawAmountOfDelaysChart(data, target) {
-    console.log(data);
     var columns = [];
     for (let i = 0; i < data.length; i++) {
         columns.push([data[i].minutesDelay + ' minutes', data[i].occurrencesOfDelay]);

@@ -126,12 +126,13 @@ h2 {
  #delay-amounts-donut {
    max-height: 320px;
    margin-top: 250px;
-   margin-left: 65%;
-   margin-right: 30px;
+   margin-left: 50%;
+   width: 33%;
  }
 
  #donut {
-   margin-left: 30px;
+   margin-left: 12%;
+   width: 33%;
  }
 
  .padded {
