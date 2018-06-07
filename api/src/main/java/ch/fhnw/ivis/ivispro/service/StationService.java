@@ -26,8 +26,10 @@ public class StationService {
 
     private final Logger log = LoggerFactory.getLogger(StationService.class);
 
-    private final String FREQUENCY_FILE = "ch/fhnw/ivis/ivispro/service/passenger_frequency_sbb_2016.csv";
-    private final String TRAIN_DATA = "ch/fhnw/ivis/ivispro/service/recent_train_data.csv";
+    // private final String FREQUENCY_FILE = "ch/fhnw/ivis/ivispro/service/passenger_frequency_sbb_2016.csv";
+    // private final String TRAIN_DATA = "ch/fhnw/ivis/ivispro/service/recent_train_data.csv";
+    private final String FREQUENCY_FILE = "/var/ivispro/passenger_frequency_sbb_2016.csv";
+    private final String TRAIN_DATA = "/var/ivispro/recent_train_data.csv";
 
     private List<Station> stations;
     private List<TrainEvent> events;
@@ -38,15 +40,17 @@ public class StationService {
 
         try {
             long startTime = System.currentTimeMillis();
-            URL url = getClass().getClassLoader().getResource(FREQUENCY_FILE);
-            FileReader reader = new FileReader(new File(url.getFile()));
+            // URL url = getClass().getClassLoader().getResource(FREQUENCY_FILE);
+            // FileReader reader = new FileReader(new File(url.getFile()));
+            FileReader reader = new FileReader(new File(FREQUENCY_FILE));
             stations = new CsvToBeanBuilder<Station>(reader).withSeparator(';').withType(Station.class).build().parse();
             long elapsedTime = System.currentTimeMillis() - startTime;
             log.info("loaded {} stations in {}ms from {}", stations.size(), elapsedTime, FREQUENCY_FILE);
 
             startTime = System.currentTimeMillis();
-            url = getClass().getClassLoader().getResource(TRAIN_DATA);
-            reader = new FileReader(new File(url.getFile()));
+            // url = getClass().getClassLoader().getResource(TRAIN_DATA);
+            // reader = new FileReader(new File(url.getFile()));
+            reader = new FileReader(new File(TRAIN_DATA));
             events = new CsvToBeanBuilder<TrainEvent>(reader).withSeparator(';').withType(TrainEvent.class).build()
                     .parse();
             elapsedTime = System.currentTimeMillis() - startTime;
