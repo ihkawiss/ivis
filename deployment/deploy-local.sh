@@ -16,7 +16,7 @@ echo "deployment of client application done!"
 
 # build backend
 echo "Building backend application!"
-cd ../backend
+cd ../api
 rm -rf build
 gradle build -x test
 
