@@ -4,7 +4,7 @@
 //  Kevin Kirn <kevin.kirn@students.fhwn.ch>
 //  Ken Iseli <ken.iseli@students.fhnw.ch>
 //-----------------------------------------------------------//
-var API_STATIONS_URL = 'https://46.101.218.251/api/station';
+var API_STATIONS_URL = 'http://46.101.218.251/api/station';
 var API_BASE_URL = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}';
 var SWISS_CENTER = [46.799558, 8.235897];
 
